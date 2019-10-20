@@ -1,1 +1,1 @@
-![Artifact YAML from GRR repo](Artifact\ Example.png)
+![Artifact YAML from GRR repo](Artifact Example.png)
