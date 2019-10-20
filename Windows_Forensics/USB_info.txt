@@ -1,0 +1,5 @@
+Some of the keys start 9& which as I understand means that they did not have a readable VSN so the computer generated an ID for them but the others look like hex strings and end in either $0 or $1 they're just too long.
+Src: https://www.forensicmag.com/article/2012/08/windows-7-registry-forensics-part-6
+
+USB Key phrase = "USB Mass Storage Device", else it might just
+be a peripheral device like mouse, keyboard, etc.
