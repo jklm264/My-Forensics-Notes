@@ -16,6 +16,9 @@ rip.py -r *.reg -p [certain reg type]
   SOFTWARE        product
   SOFTWARE        winlogon
   SOFTWARE        soft_run
+  SOFTWARE        user_run
+  SOFTWARE        installedcomp
+  SOFTWARE        shellexec
   SYSTEM          shutdown
   userdat         typedurls
   userdat         muicache
