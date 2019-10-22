@@ -11,12 +11,16 @@ sudo mount -o loop,offset$((512*xxx)) 4Dell.e01 second_mntpoint
 how to encase mount: https://resources.infosecinstitute.com/registry-forensics-regripper-command-line-linux/
 
 rip.py -r *.reg -p [certain reg type]
-  - -r SOFTWARE -p recentdocs
-  - -r SOFTWARE -p profilelist
-  - -r SOFTWARE -p product
-  - -r SYSTEM -p shutdown
-  - -r {0xfff*}userdat -p typedurls
-  - -r userdat -p cain
+  SOFTWARE        recentdocs
+  SOFTWARE        profilelist
+  SOFTWARE        product
+  SOFTWARE        winlogon
+  SOFTWARE        soft_run
+  SYSTEM          shutdown
+  userdat         typedurls
+  userdat         muicache
+  userdat         cain
+
   
   
 Sources:
