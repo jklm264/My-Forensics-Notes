@@ -6,4 +6,6 @@
 	* [Angr Link](https://github.com/jklm264/My-Forensics-Notes/tree/master/Tools/angr "Angr")
 * [Windows Forensics](https://github.com/jklm264/My-Forensics-Notes/tree/master/Windows_Forensics)
 * [MacOS Forensics](https://github.com/jklm264/My-Forensics-Notes/tree/master/OSX_Forensics)
+* [Cloud Forensics](https://github.com/jklm264/My-Forensics-Notes/tree/master/Cloud_Forensics)
+
 ![Loop Device fix on SIFT](loopdevice_Fix.png)
