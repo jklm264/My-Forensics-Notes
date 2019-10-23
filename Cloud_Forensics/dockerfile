@@ -1,0 +1,17 @@
+# FROM is the base image needed. image:[tag {latest,trusty,etc}]
+FROM ubuntu:trusty
+
+# MAINTAINER authors_name
+LABEL maintainer %AuthorName%
+
+# RUN executes any command, shell or docker cmds
+RUN apt-get update
+RUN apt-get install vim python nginx -y
+
+# ***Need something runing in the background or container will exit***
+# CMD ["nginx", "-g", "daemon off;"]
+# RUN nginx -g 'daemon off;'
+# RUN nginx
+
+# EXPOSE enables networking between running proc and the host
+EXPOSE 80
