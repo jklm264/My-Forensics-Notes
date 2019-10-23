@@ -1,0 +1,13 @@
+Instructions
+
+git clone https://github.com/CTFd/CTFd
+cd CTFd
+docker-compose up -d
+
+That's it.
+
+Troubleshooting: Just run `docker-compose up -d` again.
+
+Sources:
+- https://github.com/CTFd/CTFd/wiki/Getting-Started
+- https://medium.com/@rkkautsar/how-docker-helps-me-manage-a-capture-the-flag-competition-7af303c1de2
