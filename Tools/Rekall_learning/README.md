@@ -1,4 +1,4 @@
-Rekall looks to be owned by Google, while Volatility is owned by Terremark, a Verizon company.
+* Rekall looks to be owned by Google, while Volatility is owned by Terremark, a Verizon company.
 
 # how to install rekall
 1. virtualenv  /tmp/MyEnv
@@ -6,8 +6,9 @@ Rekall looks to be owned by Google, while Volatility is owned by Terremark, a Ve
 3. pip install --upgrade setuptools pip wheel #one part will fail, dw
 4. pip install rekall-agent rekall
 5. (Deactivate) to leave
+
 Future dependency issue:
-$sudo /tmp/MyEnv/bin/pip install future==0.16.0
+`$sudo /tmp/MyEnv/bin/pip install future==0.16.0`
 Src: https://github.com/google/rekall/issues/448
 
 Resources:
