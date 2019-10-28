@@ -1,4 +1,5 @@
 * Rekall looks to be owned by Google, while Volatility is owned by Terremark, a Verizon company.
+* One of the main differences between Rekall and other memory analysis frameworks is that Rekall uses symbols obtained from operating system vendors’ debugging information directly. 
 
 # how to install rekall
 1. virtualenv  /tmp/MyEnv
