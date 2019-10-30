@@ -17,6 +17,7 @@ If you want to get technical, the answer is [yes](https://www.quora.com/Are-ther
 	* Use the 1.5.1 Furka Release that contains `osxpmemm-2.1.post4.zip`
 	* `$wget https://github.com/google/rekall/releases/download/v1.5.1/osxpmem-2.1.post4.zip`
 		* [Youtube of Sierra Acquisition with Volatility](https://www.youtube.com/watch?v=wmU3MlHZxg8)
+	* https://isc.sans.edu/forums/diary/An+Introduction+to+Mac+memory+forensics/20989/
 * [Carbon Copy Cloner 5](https://bombich.com/)
 	* Not sure how much I trust this but says it works with Catalina BUT not enough for ["forensics-level backup"](https://bombich.com/kb/ccc3/block-level-copy)
 * FTKImager (free)
@@ -57,3 +58,4 @@ If you want to get technical, the answer is [yes](https://www.quora.com/Are-ther
 # Misc Links
 * https://www.mac4n6.com/blog/2018/8/5/knowledge-is-power-using-the-knowledgecdb-database-on-macos-and-ios-to-determine-precise-user-and-application-usage
 * https://posts.specterops.io/hunting-for-bad-apples-part-1-22ef2b44c0aa
+* https://medium.com/dfir-dudes/mac-forensics-no-one-said-it-would-be-easy-8bf2f5e4956c
