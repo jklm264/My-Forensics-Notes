@@ -1,5 +1,5 @@
 # TLDR
-**At the moment, I cannot find any tools which work on Mojave, or Catalina**
+**At the moment, I cannot find any acqusition tools which work on Mojave, or Catalina**
 * The trusted tools are OSXpmem and [Macquisition(paid)](https://www.blackbagtech.com/products/macquisition/) for acquisition
 
 
@@ -22,7 +22,8 @@ If you want to get technical, the answer is [yes](https://www.quora.com/Are-ther
 * FTKImager (free)
 	* `$sudo dd if=/dev/rdisk1 | ./ftkimager - ~/Forensics/disk1_decrypted.raw` from [soruce](https://medium.com/@bromiley/imaging-with-apple-ftkimager-c529c174497a)
 	* [**NOTE**](https://accessdata.com/product-download): Last release is for 10.5 & 10.6 ({Snow, } Leopard)
-		
+* RECON Imager with Sumuri from Paladin (paid)[https://sumuri.com/software/paladin/]
+
 ## Recommendations by Art of Memory Forensics (page 781)
 * Mac Memory Reader
 * Mac Memoryze
@@ -35,6 +36,7 @@ If you want to get technical, the answer is [yes](https://www.quora.com/Are-ther
 # Active Development
 
 * [Mac_apt](https://github.com/ydkhatri/mac_apt) -- **Up Next**
+	* *"So far, we've tested this on OSX 10.9 (Mavericks) through 10.14 (Mojave)."* - [Src](https://github.com/ydkhatri/mac_apt/wiki)
 * [OSquery](https://github.com/osquery/osquery) -- **Up Next**
 * [Plisteditpro](https://www.fatcatsoftware.com/plisteditpro/) -- **Up Next**
 * [Any tool from Jonathan Levin's site](newosxbook.com/tools) -- **Up Next**
@@ -52,3 +54,6 @@ If you want to get technical, the answer is [yes](https://www.quora.com/Are-ther
 
 * otool [https://github.com/gdbinit/otool-ng]
 
+# Misc Links
+* https://www.mac4n6.com/blog/2018/8/5/knowledge-is-power-using-the-knowledgecdb-database-on-macos-and-ios-to-determine-precise-user-and-application-usage
+* https://posts.specterops.io/hunting-for-bad-apples-part-1-22ef2b44c0aa
