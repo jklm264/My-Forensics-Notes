@@ -15,10 +15,15 @@
 * RECON Imager with Sumuri from Paladin (paid)[https://sumuri.com/software/paladin/]
 
 ## Recommendations by Art of Memory Forensics (page 781)
-* Mac Memory Reader
+* Mac Memory Reader - Download site is offline
+	* https://digital-forensics.sans.org/blog/2011/01/28/mac-os-forensics-howto-simple-ram-acquisition-analysis-mac-memory-reader-part-1
 * Mac Memoryze
 	* ~~[Download - German link but trusted](https://www.fireeye.com/services/freeware/memoryze-for-the-mac.html)~~
 	* [Download](https://www.fireeye.com/services/freeware/memoryze.html) -- **Up Next**
 	* https://digital-forensics.sans.org/blog/2010/11/08/digital-forensics-howto-memory-analysis-mandiant-memoryze
 	* https://digital-forensics.sans.org/blog/2010/11/02/digital-forensics-time-stamp-manipulation/
 * OSXpmem
+
+## Recommendations by Volatility
+
+* We recommend using Mac Memory Reader from ATC-NY, Mac Memoryze, or OSXPmem for this purpose. Remember to check the list of supported OS versions for each tool before using them. [Src](https://github.com/volatilityfoundation/volatility/wiki/Mac)
