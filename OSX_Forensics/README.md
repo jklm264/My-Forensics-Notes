@@ -38,3 +38,4 @@ See [here](Acquisition_Tools.md)
 * https://medium.com/dfir-dudes/mac-forensics-no-one-said-it-would-be-easy-8bf2f5e4956c
 * [**2018**:Testing Memory Forensics Tools for the Macintosh
 OS X Operating System](https://commons.erau.edu/cgi/viewcontent.cgi?article=1491&context=jdfsl)
+* [The only paper on Mac Forensics](https://commons.erau.edu/cgi/viewcontent.cgi?article=1491&context=jdfsl)
