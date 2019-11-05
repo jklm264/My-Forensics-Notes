@@ -4,7 +4,7 @@
 
 1. _Mach layer_ is the OS X implementation of microkernel (from CMU) responsile for Virt MemMgmt, proc scheduling (like MS' csrss.exe), & message passing (XPC).
 
-2. _BSD layer_ was for networking, fs interaction, POSXI compliance, and more.
+2. _BSD layer_ was for networking, fs interaction, POSIX compliance, and more.
 
 
 **Note:** Before 10.5 (Leopard), Macs never split kernel & userland address space per process (each context had their own 32-bit (4GB) AS). So special buffers were used to read/write proc memory. Now (10.6 and on) they follow the 2GB/2GB or 3:1 kernel/userland split. 
@@ -17,7 +17,7 @@ Starting 10.8 (Mountain Lion), _kernel_ ASLR was used in virt AS. Make's finding
 
 ## Memory Acquisition
 
-Need a kernel module to access data: KERNEL_MODULE_HERE
+Need a kernel module to access data (Which? KERNEL_MODULE_HERE)
 
 - Safe acquisition of RAM can be done by finding where RAM is
   mapped within the system's physical address space.
@@ -30,7 +30,7 @@ Need a kernel module to access data: KERNEL_MODULE_HERE
 ### To get most current profiles: 
 
 - `curl -o MacProfiles.zip http://downloads.volatilityfoundation.org/MacProfiles.zip`
-- unzip MacProfiles.zip
+- `unzip MacProfiles.zip`
 - `cp [Profile_Choice].zip  ~/volatility/volatility/plugins/overlays/mac`
 - To check: ` python vol.py --info | grep Mac`
 
@@ -49,7 +49,7 @@ File segments: __TEXT, __DATA, __LINKEDIT (symbol and string table), and __IMPOR
 
 Enumerate procs with `mac_psxview`. But can also do granular view with pslist, parents, pidhash, pgroup, sleads (shows session leader proc of each session), tasks
 
-- False indicators don't always mean bad stuff is happening.
+- False indicators in `mac_psxview` don't always mean bad stuff is happening.
 
 ## Proc Relationships
 
@@ -57,7 +57,7 @@ Use `mac_pstree`.
 
 ![mac_pstree output](mac_pstree_output.png)
 
-See here how we can tell `$sudo dtrace` was ran from the terminal. Also not how the `kernel_task` proc is equivalent to Windows' `System` proc.
+See here how we can tell `$sudo dtrace` was ran from the terminal. Also note how the `kernel_task` proc is equivalent to Windows' `System` proc.
 
 ## Networking
 
@@ -82,7 +82,7 @@ Use `mac_netstat` to report which proc started the connection, `mac_network_conn
 		- `mac_list_files` and get Offset of
 		  /etc/master.passwd file
 		- `mac_dump_file -q [OFFSET] -O [Output_file_name]` 
-- **OR** can use _mac_recover_filesystem` pluging to recover the full file system structure (+ metadata). Internally, this is done by finding mount points with `mac_mount` then mount.mnt_vnodelist's linked-list is walked to enumerate the rest of the files.
+- **OR** can use `mac_recover_filesystem` pluging to recover the full file system structure (+ metadata). Internally, this is done by finding mount points with `mac_mount` then mount.mnt_vnodelist's linked-list is walked to enumerate the rest of the files.
 
 ## Misc
 
@@ -101,7 +101,5 @@ Use `mac_netstat` to report which proc started the connection, `mac_network_conn
 
 
 ## Live Forensics
-
-
 
 - See page 820 and 821 for commands and remarks.
