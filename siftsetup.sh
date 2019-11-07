@@ -1,6 +1,4 @@
-sudo apt update
-sudo apt upgrade -y
-sudo apt autoremove -y
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 
 sudo apt install zfs-fuse python-fuse fuse-zip sshfs libewf libfuse-div libexpatl-dev -y
 sudo apt install xmount -y
