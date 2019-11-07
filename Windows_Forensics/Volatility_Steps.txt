@@ -38,6 +38,15 @@ vol.py pslist > pslist_$arg1.out
 ###### OR USE log2timeline (the easier version psteal.py) ##############
 psteal.py --source $arg1 -o l2tcsv -w supertimeline.csv
 
+-----------------------Better script------
+image=$1
+mkdir ./findings
+vol.py -f $1 imageinfo > ./findings/imageinfo.out
+profile=$(cat ./findings/imageinfo.out | grep "Profile" | awk '{print $4}' | tr -d ',')
+
+#Instead, below, make array of plugins to plugin
+vol.py -f $1 --profile $profile pslist > findings/pslist.out
+
 
 Sources:
 - https://www.andreafortuna.org/2018/11/19/autotimeliner-automatically-extract-forensic-timeline-from-memory-dumps/
