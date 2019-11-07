@@ -9,8 +9,10 @@
 6. connscan
 7. Others: https://github.com/superponible/volatility-plugins
   - chrome, ffox, prefetch
-8. ..........
- 
+8. Jobs files
+9. Registry keys
+  - Modifying registy, logons/logoffs, file access, network share access, mounts.
+10. ....
  
  
 Automated script below:
