@@ -1,0 +1,41 @@
+1. imageinfo
+  - note profile and local time (for timeline -z arg)
+2. pslist
+  - confirms we picked the right profile
+3. Timeline.
+  - with timeliner, mftparser, and shellbags
+4. iehistory
+5. malfind
+6. connscan
+7. Others: https://github.com/superponible/volatility-plugins
+  - chrome, ffox, prefetch
+8. ..........
+ 
+ 
+ 
+Automated script below:
+arg1 = $1
+export VOLATILITY_LOCATION=$(pwd)/arg1
+
+vol.py -f $arg1 imageinfo > imageinfo_$arg1.out
+cat imageinfo_$arg1.out | grep \"Suggested Profile(s)\" | awk '{print $4 $5 $6}'"
+  # Direct into a file
+  # Parse profile guess 1 && localtime print
+    #  grep \"Suggested Profile(s)\" | awk '{print $4 $5 $6}'"
+  # should have local time default to UTC
+export VOLATILITY_PROFILE={profile}
+
+vol.py pslist > pslist_$arg1.out
+
+# Timeline
+# vol.py timeliner --output-file=timeliner_out.txt --output=body
+# vol.py mftparser --output-file=mft_out.txt --output=body
+# vol.py shellbags --output-file=shellbags_out.txt --output=body
+# cat *_out.txt >> supertimeline.body
+# mactime -d -b supertimeline.body supertimeline.csv
+###### OR USE log2timeline (the easier version psteal.py) ##############
+psteal.py --source $arg1 -o l2tcsv -w supertimeline.csv
+
+
+Sources:
+- https://www.andreafortuna.org/2018/11/19/autotimeliner-automatically-extract-forensic-timeline-from-memory-dumps/
