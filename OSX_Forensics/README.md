@@ -22,6 +22,10 @@ See [here](Acquisition_Tools.md)
 * [Any tool from Jonathan Levin's site](newosxbook.com/tools) -- **Up Next**
 * [otool (@Apple)](https://www.unix.com/man-page/osx/1/otool/)
 * [jtool (@JLev)](http://www.newosxbook.com/tools/jtool.html) -- **Up Next**
+* [Black Light](https://www.blackbagtech.com/products/blacklight/) -- Great tool but very expensive
+* [X-Ways](https://www.x-ways.net/) -- Not free
+	* Scriptable
+* [OS X Collector - github!](https://github.com/Yelp/osxcollector)
 
 # List of Forensics tools no longer being maintained for OSX
 * Volatility
@@ -32,6 +36,12 @@ See [here](Acquisition_Tools.md)
 	* https://digital-forensics.sans.org/blog/2011/01/28/mac-os-forensics-howto-simple-ram-acquisition-analysis-mac-memory-reader-part-1
 * otool [https://github.com/gdbinit/otool-ng]
 
+# Community Forums
+* BlackBag - need to be paid member
+* Reddit: [r/osx](https://www.reddit.com/r/osx/), [r/dfir](https://www.reddit.com/r/dfir/), [r/Computer Forensics](https://www.reddit.com/r/computerforensics/)
+* www.dfir.training
+
+
 # Misc Links
 * https://www.mac4n6.com/blog/2018/8/5/knowledge-is-power-using-the-knowledgecdb-database-on-macos-and-ios-to-determine-precise-user-and-application-usage
 * https://posts.specterops.io/hunting-for-bad-apples-part-1-22ef2b44c0aa
@@ -39,3 +49,4 @@ See [here](Acquisition_Tools.md)
 * [**2018**:Testing Memory Forensics Tools for the Macintosh
 OS X Operating System](https://commons.erau.edu/cgi/viewcontent.cgi?article=1491&context=jdfsl)
 * [The only paper on Mac Forensics](https://commons.erau.edu/cgi/viewcontent.cgi?article=1491&context=jdfsl)
+* [Brian Martin -  start at ~27m](https://www.youtube.com/watch?v=AG72W_LVidI)
