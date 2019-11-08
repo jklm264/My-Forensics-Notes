@@ -44,5 +44,8 @@ See [here](Acquisition_Tools.md)
 # Everyday Tools
 See [here](everyday_tools.md)
 
+# Mac Internals
+See [here](MacInternals.md)
+
 # Misc Links
 See [here](miscLinks.md)
