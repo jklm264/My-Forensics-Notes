@@ -1,6 +1,5 @@
 # Contents
 
-* Registry Info
 * USB Info
 * Windows Registry lookup bash script
 * Windows Beginnings (Easy to check registry locations)
