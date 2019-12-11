@@ -3,7 +3,7 @@
 
 * The trusted tools are OSXpmem and [Macquisition(paid)](https://www.blackbagtech.com/products/macquisition/) for acquisition
 
-# OSX vs MacOS
+# OSX vs MacOS Difference
 If you want to get technical, the answer is [yes](https://www.quora.com/Are-there-differences-between-macOS-and-OS-X):
 
 * macOS describes the Apple operating system designed to run on Apple laptop and desktop computers starting with version numbers 10.12 and later.
