@@ -17,11 +17,50 @@
   * Also `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList`
   * `HKLM\SOFTWARE\Microsoft\WZCSVC\Parameters\Interfaces\{GUID}`
     * 0x06:Wired, 0x17:Broadband, 0x47:Wireless
+    
 #### Shellbags
 
 * Customization configurations (sizes, placements, etc)
 * BagMRU || Bags
 * Use a tool.
+
+#### Recycling Bin
+
+*$Recycle.Bin
+ * $R ("recovery") is the data
+ * $I is metadata
+* [Tool](https://df-stream.com/recycle-bin-i-parser/)
+
+#### LNK
+
+* persist even if the orgiinal system file was deleted.
+* file containing a pointer to another file on the FS.
+ * Magic Bytes: `4C 00 00 00`
+ * Contains: Network Share information, original file location, host system name, MAC address,...
+* Locations:
+ * `C:\Users\Mussm\AppData\Roaming\MS\Win\Recent`
+ * `C:\Users\Mussm\AppData\Roaming\Microsoft\Office\Recent`
+
+#### Jump Lists
+
+* Intro'd in Win7
+* Locations:
+ * `C:\Users\Mussm\AppData\Roaming\Microsoft\Office\Recent`
+* Automatic Destinations - common api features and Object Linking and Embedding Compound Files.
+ * Each Stream is its own link file
+* Custom Destinations
+ * App-specific, developer made
+ 
+#### Prefetch
+
+* Windows “prefetches” the necessary code and data to a single location. Then, prevents the system from seeking across system files for DLLs and other needed data.
+
+#### Thumbcache
+
+* Created when the user uses the Thumbnails or Filmstrip folder viewing options in File Explorer.
+* Location: `<System Volume>\Users\<User Name>\AppData\Local\Microsoft\Windows\Explorer.`
+* Stored in SQLite db
+* [Tool](https://thumbcacheviewer.github.io/)
 
 ### USBs 
 * `%ControlSet%\ENum\USBSTOR\%DEVICE_NAME%\%SerialNumber%`
