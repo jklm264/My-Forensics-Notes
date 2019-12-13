@@ -7,6 +7,7 @@
 
 ### Registry Artifacts
 
+* If a conflict between HKLM and HKCU, Windows loads from HKCU.
 * ComDlg32 - for recent paths in programs. Ex: MSWord recent docs
 * RecentDocs - will usually be lnk files
 * RunMRU - in regedit, more easibly readable
