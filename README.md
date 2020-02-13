@@ -7,5 +7,6 @@
 * [Windows Forensics](https://github.com/jklm264/My-Forensics-Notes/tree/master/Windows_Forensics)
 * [MacOS Forensics](https://github.com/jklm264/My-Forensics-Notes/tree/master/OSX_Forensics)
 * [Cloud Forensics](https://github.com/jklm264/My-Forensics-Notes/tree/master/Cloud_Forensics)
+* [OSINT Forensics](https://github.com/jklm24/My-Forensics-Notes/tree/master/OSINT_Forensics)
 
 ![Loop Device fix on SIFT](loopdevice_Fix.png)
