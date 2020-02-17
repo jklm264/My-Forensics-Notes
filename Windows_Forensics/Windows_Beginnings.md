@@ -18,6 +18,12 @@
   * Also `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList`
   * `HKLM\SOFTWARE\Microsoft\WZCSVC\Parameters\Interfaces\{GUID}`
     * 0x06:Wired, 0x17:Broadband, 0x47:Wireless
+* **Service Tracing**
+  * Basic debug info about reunning servies and modules.
+  * local user permission
+  * `HKLM\SOFTWARE\Microsoft\Tracing`
+  * Present from XP to current
+  * [More Info on exploit](itm4n.github.io/cve-2020-0668-windows-service-tracing-eop/)
     
 #### Shellbags
 
