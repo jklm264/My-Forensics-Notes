@@ -1,6 +1,6 @@
 # TLDR
 **At the moment, I cannot find any FORENSIC acqusition tools which work on Mojave, or Catalina**
-
+	* Take another look at [GRR](https://github.com/google/grr) and [osquery](https://github.com/osquery/osquery)
 * The trusted tools are OSXpmem and [Macquisition(paid)](https://www.blackbagtech.com/products/macquisition/) for acquisition
 
 # OSX vs MacOS Difference
@@ -15,16 +15,15 @@ If you want to get technical, the answer is [yes](https://www.quora.com/Are-ther
 See [here](Acquisition_Tools.md)
 	
 # Active Development
-* [Mac_apt](https://github.com/ydkhatri/mac_apt) -- **Up Next**
+* [Mac_apt](https://github.com/ydkhatri/mac_apt) 
 	* *"So far, we've tested this on OSX 10.9 (Mavericks) through 10.14 (Mojave)."* - [Src](https://github.com/ydkhatri/mac_apt/wiki)
-* [OSquery](https://github.com/osquery/osquery) -- **Up Next**
-* [Plisteditpro](https://www.fatcatsoftware.com/plisteditpro/) -- **Up Next**
-* [Any tool from Jonathan Levin's site](newosxbook.com/tools) -- **Up Next**
+* [OSquery](https://github.com/osquery/osquery)
+* [Plisteditpro](https://www.fatcatsoftware.com/plisteditpro/) 
+* [Any tool from Jonathan Levin's site](newosxbook.com/tools)
 * [otool (@Apple)](https://www.unix.com/man-page/osx/1/otool/)
-* [jtool (@JLev)](http://www.newosxbook.com/tools/jtool.html) -- **Up Next**
+* [jtool (@JLev)](http://www.newosxbook.com/tools/jtool.html)
 * [Black Light](https://www.blackbagtech.com/products/blacklight/) -- Great tool but very expensive
 * [X-Ways](https://www.x-ways.net/) -- Not free
-	* Scriptable
 * [OS X Collector - github!](https://github.com/Yelp/osxcollector)
 
 # List of Forensics tools no longer being maintained for OSX
