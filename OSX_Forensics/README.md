@@ -1,7 +1,7 @@
 # TLDR
-**At the moment, I cannot find any FORENSIC acqusition tools which work on Mojave, or Catalina**
-	* Take another look at [GRR](https://github.com/google/grr) and [osquery](https://github.com/osquery/osquery)
+**At the moment, I cannot find any forensic ACQUISITION tools which work on Mojave, or Catalina**
 * The trusted tools are OSXpmem and [Macquisition(paid)](https://www.blackbagtech.com/products/macquisition/) for acquisition
+* Take another look at [GRR](https://github.com/google/grr) with [osquery](https://github.com/osquery/osquery) for analysis
 
 # OSX vs MacOS Difference
 [Yes](https://www.quora.com/Are-there-differences-between-macOS-and-OS-X):
