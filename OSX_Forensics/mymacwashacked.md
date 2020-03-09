@@ -1,6 +1,6 @@
 # "jklm264, I think my Mac was hacked what can I do?"
 
-### Weird things to look for (Chrome):
+### Indicators of Compromise (Chrome):
 
 - too many ads/pop-ups/alert boxes
 - too many notifications
