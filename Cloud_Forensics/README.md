@@ -32,7 +32,8 @@
 
 ## Extra Stuffs
 
-[Docker Hub](https://hub.docker.com/r/tiangolo/uwsgi-nginx/)
+- [Docker Hub](https://hub.docker.com/r/tiangolo/uwsgi-nginx/)
+- When trying to configure Message of the Day check the following files for editting: `/etc/pam.d/sshd`, `/etc/motd`, `/run/motd.dynamic`, `/etc/ssh/sshd_config`, `/etc/ssh/ssh_config`, `/etc/issue`, `/etc/issue.net`, `/etc/rc.local`
 
 # Troubleshooting
 
