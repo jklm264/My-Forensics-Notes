@@ -38,7 +38,7 @@ Need a kernel module to access data (Which? KERNEL_MODULE_HERE)
 
 - Magic Bytes: 0xfeedface (32-bit) and 0xfeedfacf (64-bit)
 - CPU Type
-- File Type: MH_EXECUTE (0x2), MH_DYLIB (0x6) aka shared libraries, MH_BUDLE (0x8), and MH_DYSM (0xa) aka debug files (think Windows PDB files) 
+- File Type: MH_EXECUTE (0x2), MH_DYLIB (0x6) aka shared libraries, MH_BUDLE (0x8), and MH_DYSM (0xa) aka debug files (think Windows PDB files)
 - Number and Size of commands
 
 File segments: __TEXT, __DATA, __LINKEDIT (symbol and string table), and __IMPORT (symbols imported by other apps & libs).
@@ -97,8 +97,6 @@ Use `mac_netstat` to report which proc started the connection, `mac_network_conn
 - `mac_bash`: Recovers the commands entered into the bash shell.
 - `mac_bash_hash`: Recovers the command alias hash table.
 - `mac_bash_env`: Recovers the environment variables of the bash session.
-
-
 
 ## Live Forensics
 

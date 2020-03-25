@@ -5,7 +5,7 @@ proj = angr.Project('fauxware')
 proj.arch
 proj.entry
 proj.filename
-p.loader.main_object.execstack
+proj.loader.main_object.execstack
 proj.loader.main_object.execstack
 proj.loader.main_object.all_symbols
 proj.loader.main_object.pic
