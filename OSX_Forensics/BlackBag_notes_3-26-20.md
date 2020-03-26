@@ -4,18 +4,16 @@
 	- Airdrop status
 - In folders
 	- kMDItemUserCount - don't rely on this exactly b/c 
-	- ![image](/Users/unlikelyhacker/Downloads/image.png)
+	- ![folders](assets/folders.png)
 - .app folders
 	- LRU count, date (and previous dates) [apparently time isn't exact with macquisition]
-	- ![safari history item plist PER ITEM](/Users/unlikelyhacker/Downloads/image (1).png)
+	- ![safari history item plist PER ITEM](assets/safari.png)
 
 - User-Level Stores
 
 - iOS Stores
 
-![image-20200326141523911](/Users/unlikelyhacker/Library/Application Support/typora-user-images/image-20200326141523911.png)
-
-
+![ios-stores](assets/ios-stores.png)
 
 ## Spotlight
 
@@ -36,7 +34,7 @@
 
   - includes passwords, session keys, private keys, certificates
 
-  ![image-20200326143105547](/Users/unlikelyhacker/Library/Application Support/typora-user-images/image-20200326143105547.png)
+  ![locations](assets/locations.png)
 
   - If one user auth's a wifi, then all users do too
   - parsing system keychain will unlock everything else
@@ -47,8 +45,8 @@
 
   - Record types:
 
-    - ![image-20200326143512566](/Users/unlikelyhacker/Library/Application Support/typora-user-images/image-20200326143512566.png)
-    - ![image-20200326143535043](/Users/unlikelyhacker/Library/Application Support/typora-user-images/image-20200326143535043.png)
+    - ![recordtypes](assets/recordtypes.png)
+    - ![cssmEXT](assets/cssmEXT.png)
       - Internet and Generic are best places to look
     - Information found in them aka **Attributes**:
       - Record names (Connonical)
@@ -74,7 +72,7 @@
 
 ### Key Takeaways 
 
-- ![image-20200326145222182](/Users/unlikelyhacker/Library/Application Support/typora-user-images/image-20200326145222182.png)
+- ![takeaways](assets/takeaways.png)
   - System keychain does not need a password, just on disk
   - MacOS only, not iOS.
   - Keychain files on Disk; can also be backed-up, copied, and moved (.keychain or .keychain-db)
