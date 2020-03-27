@@ -1,4 +1,4 @@
-# Tool List
+## Tool List
 
 - Shodan
 - Coggle- mind mapping
@@ -14,3 +14,7 @@
 - haveibbeenpwnd.com 
 - dehashed.com (paid)
 - spiderfoot
+
+## Notes from Presentations
+
+- [BlackHills 2-13](BlackHills_Webcast[2-13-20]-OSINT.md)
