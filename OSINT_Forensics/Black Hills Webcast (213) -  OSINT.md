@@ -18,12 +18,12 @@ Company info on the internet: Organization history, employees pii, leadership, t
 
 ## Sources
 
-![Sources pic](sources.png)
-￼￼
+![Sources pic](assets/sources.png)
+
 
 ## Google search results
 
-![Google search results pic](googlesearch.png)
+![Google search results pic](assets/googlesearch.png)
 
 ## Cert transparency 
 
@@ -61,4 +61,4 @@ Company info on the internet: Organization history, employees pii, leadership, t
 
 - how do osint tools , how do they parse data or just apis? APIs :)
 
-- ![My Question](myQ.png)
+- ![My Question](assets/myQ.png)

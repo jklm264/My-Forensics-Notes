@@ -4,16 +4,16 @@
 	- Airdrop status
 - In folders
 	- kMDItemUserCount - don't rely on this exactly b/c 
-	- ![folders](assets/folders.png)
+	- ![folders](BlackBag3-26_assets/folders.png)
 - .app folders
 	- LRU count, date (and previous dates) [apparently time isn't exact with macquisition]
-	- ![safari history item plist PER ITEM](assets/safari.png)
+	- ![safari history item plist PER ITEM](BlackBag3-26_assets/safari.png)
 
 - User-Level Stores
 
 - iOS Stores
 
-![ios-stores](assets/ios-stores.png)
+![ios-stores](BlackBag3-26_assets/ios-stores.png)
 
 ## Spotlight
 
@@ -34,7 +34,7 @@
 
   - includes passwords, session keys, private keys, certificates
 
-  ![locations](assets/locations.png)
+  ![locations](BlackBag3-26_assets/locations.png)
 
   - If one user auth's a wifi, then all users do too
   - parsing system keychain will unlock everything else
@@ -45,8 +45,8 @@
 
   - Record types:
 
-    - ![recordtypes](assets/recordtypes.png)
-    - ![cssmEXT](assets/cssmEXT.png)
+    - ![recordtypes](BlackBag3-26_assets/recordtypes.png)
+    - ![cssmEXT](BlackBag3-26_assets/cssmEXT.png)
       - Internet and Generic are best places to look
     - Information found in them aka **Attributes**:
       - Record names (Connonical)
@@ -72,7 +72,7 @@
 
 ### Key Takeaways 
 
-- ![takeaways](assets/takeaways.png)
+- ![takeaways](BlackBag3-26_assets/takeaways.png)
   - System keychain does not need a password, just on disk
   - MacOS only, not iOS.
   - Keychain files on Disk; can also be backed-up, copied, and moved (.keychain or .keychain-db)
