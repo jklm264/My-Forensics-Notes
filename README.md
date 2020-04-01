@@ -5,6 +5,7 @@
 	- [Rekall Link](Tools/Rekall_learning "Google's Rekall + GRR + some Memory Forensics notes")
 	- [Angr Link](Tools/angr "Angr")
 	- [Elasticseach](Tools/elasticsearch)
+	- [Splunk](Tools/splunk)
 - [Windows Forensics](Windows_Forensics)
 - [MacOS Forensics](OSX_Forensics)
 - [Cloud Forensics](Cloud_Forensics)
