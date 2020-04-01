@@ -156,7 +156,7 @@ There is a section [at the bottom](#Post-Exam) for other splunk notes.
 4. Arguments - variables we want to apply to function
 5. Clauses - how we want results groups or defined
 
-![image-20200324141934328](/home/papapeanut/.config/Typora/typora-user-images/image-20200324141934328.png)
+![basicsearch](assets/basicsearch.png)
 
 ### Visual Pipeline
 
@@ -300,7 +300,7 @@ Careful of spaces
 - E.g. Tying employees name to id OR text descriptions for productIds
 - A lookup is categorized as a dataset
 
-![Lookup](/home/papapeanut/.config/Typora/typora-user-images/image-20200327182809876.png)
+![Lookup](assets/lookup.png)
 
 #### Steps
 
@@ -322,7 +322,7 @@ Careful of spaces
 
 - will no longer need to use Lookup cmd
 
-![image-20200327183615693](/home/papapeanut/.config/Typora/typora-user-images/image-20200327183615693.png)
+![autolookup](assets/autolookup.png)
 
 
 
@@ -357,7 +357,7 @@ Careful of spaces
 
 
 
-![This is good to use!](/home/papapeanut/.config/Typora/typora-user-images/image-20200330182923977.png)
+![This is good to use!](assets/goodtouse.png)
 
 
 
