@@ -14,21 +14,19 @@
 
 - [Summary](#Summary)
 
-- [Things to look at later on](#Things to look for later (in order))
+- [Things to look at later on](#Things-to-look-for-later-(in-order))
 
   
 
-[Slideshow found](https://www.activecountermeasures.com/acm-bbhis-presentations) then go to CyberThreatHuntingTraining_JohnStrand_Full.pdf in the Network Cyber Threat Hunter Training slideshow
+[Slideshow found](https://www.activecountermeasures.com/acm-bhis-presentations) then go to CyberThreatHuntingTraining_JohnStrand_Full.pdf in the Network Cyber Threat Hunter Training slideshow
 
 - Labs start at slide 134
-
-
 
 ## Intro
 
 - Cylance is the big bully of cyber
 
-- See more at [Sacred Cash Cow Tipping](https://www.blackhillsinfosec.com/webcast-sacred-cash-cow-tipping-2020/)
+  - See more at [Sacred Cash Cow Tipping](https://www.blackhillsinfosec.com/webcast-sacred-cash-cow-tipping-2020/)
 
 - Most of today is about these topics from MITRE Matrix:
 
@@ -77,12 +75,9 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
   - [JPCERTCC - LogonTracer](https://github.com/JPCERTCC/LogonTracer/wiki) - Analyzing Windows active directory event logs.
   - Skow unix vs ibm and autozone -- when they thought they could sue people for using linux
 
-  
 
   - C2 Hunting has blind spots
     - Stuxnet - USB only; NotPetya - didn't ping a C2, just search-and-destroy
-
-  
 
   ### Where to start
 
@@ -91,8 +86,6 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
   - Analyze communication pairs (egress packet ip/port to ingress packet's ip/port)
   - Suricata -- emerging threats give many false positives
 
-  
-
   ### What to look for first
 
   - Persistent connections: internal to external
@@ -100,9 +93,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
     - not all automation is evil!
   - Focus on IP to IP however C2 can jump ports and protocols (ex: Sneaky-Creapers)
   - Long Connections - firewall state tables or even just basic wireshark stats can tell you
-
   
-
 1. Beacons
 
    - Will "check in" to C2 server, else sleep -- this still can be found via `$ps`
@@ -121,8 +112,6 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 - Unexpected rpotocol on well-known port
 - client "signature" unique within environment: Attackers using different domains
 
-
-
 ### C2 Dections Techniques
 
 1. Identify persisten conns
@@ -132,8 +121,6 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 3. are host in constant comm?
 4. does the conn appear to be automated?
 5. can the connections be explained? valid business need, etc
-
-
 
 ### Techniques - Actual Start
 
@@ -158,7 +145,6 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 - Shodan and other hunting with Threat Feeds
 
 
-
 ## IoCs
 
 - Gotta develop a threat rating system
@@ -172,8 +158,6 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
   - Ex: Using 443 (knowing its TLS and IDS' shouldn't block) for non-https traffic 
 
 - Misc: Chrome remote desktop (TCP5222), VNC (TCP/5800), Modbus (TCP/502)
-
-
 
 #### DNS
 
@@ -198,8 +182,6 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 - Extended Validation (EV) certs are more trusted and can assign negative threat points
 - Frindge-case: [Iran](https://www.wired.com/2011/03/comodo-hack/)
 
-
-
 #### Check target IP Address
 
 - Start simple
@@ -217,8 +199,6 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
   - Sometimes Bing bot, MSN bot (web crawlers)
   - Should be secondary usage. Use your own ingeniuty and common sense before relying on this.
 
-  
-
   ##### Ephemeral Threat Intel
 
   - intel that changes rapidly
@@ -229,20 +209,16 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
   - techniques that are used and reused
 
-
-
 - Using Sysmon
 
 - Using [Sigma](https://github.com/Neo23x0/sigma) - Generic Signature Format for SIEM Systems
 
-  
-
+ 
 # FOSS Tools
 
 - Start with a scoring system
 - Then persistent connections ('internal to external' then beacons then long connections)
 - Then analyze protocol and endpoint attributes (evidence of untrusted communications)
-
 
 
 1. Tcpdump to capture packets
@@ -262,12 +238,9 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 10. Open Source Threat Feeds sometime better than the Commercial Threat Feeds
     - Spamhause
 
-
-
 ## Summary
 
 - Look at outgoing connections too (for C2 queries)
-
 
 
 ## Things to look for later (in order)
@@ -288,4 +261,3 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 - http://www.dfirnotes.net/class_links/
 - https://osint.bambenekconsulting.com/feeds/
 - lol https://www.activecountermeasures.com/why-is-my-program-running-slowly/
-
