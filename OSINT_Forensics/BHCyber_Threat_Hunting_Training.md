@@ -12,7 +12,7 @@
 
 - [C2 FOSS Tools](#FOSS-Tools)
 
-- [Summary](#Summary)
+- [Summary/TLDR](#Summary)
 
 - [Things to look at later on](#Things-to-look-for-later-(in-order))
 
@@ -36,44 +36,53 @@
 
 Every attack: escalate privileges, move laterally , establish C2 (what we're talking about today)
 
+
+
+### Company/Victim Firewalls
+
 - Most companies DONT filter the outbound traffic, but do filter ingress traffic.
   
   - [Marcus J. Ranum](https://en.wikipedia.org/wiki/Marcus_J._Ranum) founded firewalls
-- Certain IDS/FW's do check if packets match the port. Ex: is this packet that leaves from port 80 really HTTP?
-  - https://www.snort.org/
-  - https://suricata-ids.org/
-
-- How does an attacker get in? (Spear)-Phishing
-  - Done via algorithms with bad-word list. Email filtering products also have white-word lists which would allow an email (bad) that includes e.g. "spreadsheet", would go right in.
-  - Spear Phish - license plate --> Metadata from kids soccer team --> email with "Updated practice soccer" --> People will click. *The Creepy Line* (Google)
+- Certain IDS/FW's do check if packets match the port. 
+  - Ex: is this packet that leaves from port 80 really HTTP?
+  - Tools: https://www.snort.org/, https://suricata-ids.org/
+- How does an attacker get in? (Spear-)Phishing
+  - Done via algorithms with bad-word lists. 
+  - Email filtering products (EDRs, [MSSP](https://www.gartner.com/en/information-technology/glossary/mssp-managed-security-service-provider) tools) also have white-word lists which would is bad.
+    - Ex: The white list has the word "spreadsheet" to automatically go through inspection. However 'download my (malicious) spreadsheet' is super common for attackers.
+    - Ex 2: Spear Phish - license plate --> Metadata from kids soccer team --> email with "Updated practice soccer" --> People will click. *The Creepy Line* (Google)
 - Pentesters will never be like attackers
-  - find a trusted network ('doctors forum'), then put the C2 on their server
-  - What pentesters do instead: [Domain fronting](https://attack.mitre.org/techniques/T1172/) via 
+  - [Attackers] Find a trusted network ('doctors forum'), then put the C2 on their server
+  - [Pentesters] Do instead: [Domain fronting](https://attack.mitre.org/techniques/T1172/) via 
     - Colbalt Strike 
     - [Sneaky-Creeper Github](https://github.com/DakotaNelson/sneaky-creeper)
     - [Gcat - what russians used](https://github.com/byt3bl33d3r/gcat)
-  
 - Why Signature-based (not threat hunting) products are a problem
 
   - Per Verizon Source, orgs discovered that they were breached from an external monitoring service (69.7% [lol])
 
-  - ![image](BHCyber_Threat_Hunting_Training.assets/image.png)What is threat hunting? Include all systems (Laptops, cell, IoT, tablets, cameras, etc - see pic below)
-    - Find unknowns and anomalies, create better filter, repeat
-  - Threat hunting is not... Blacklist detection, IOCs, Provided by an EDR (aka hitting the easy button)
-    - This is what MSSP and companies like them do. "Everything in one pane of glass"
+![image](BHCyber_Threat_Hunting_Training.assets/image.png)What is threat hunting? Include all systems (laptops, cell, IoT, tablets, cameras, etc - see pic below for more)
 
-  <img src="BHCyber_Threat_Hunting_Training.assets/image-20200404115432567.png" alt="image-20200404115432567" style="zoom:50%;" />
+- Answer: Find unknowns and anomalies, create better filters, repeat
+- Threat hunting is **not**... Blacklist detection, IOCs, Provided by an EDR (aka hitting the easy button)
+  - This is what MSSP and companies like them do. "Everything in one pane of glass" *and* "Log everything" (while the log/search cost is enormous).
 
-  ### Misc
+<img src="BHCyber_Threat_Hunting_Training.assets/image-20200404115432567.png" alt="image-20200404115432567" style="zoom:50%;" />
 
-  - Transunion account is great for phishing
-  - [Compliance Master Map](https://www.auditscripts.com/download/2742/)
-    - [Compilance Tool xls](https://www.auditscripts.com/download/4229/)
+### Misc
 
-  ## Process
+- Transunion account is great for phishing
+- [Compliance Master Map](https://www.auditscripts.com/download/2742/)
+  - [Compilance Tool xls](https://www.auditscripts.com/download/4229/)
 
-  - [JPCERTCC - LogonTracer](https://github.com/JPCERTCC/LogonTracer/wiki) - Analyzing Windows active directory event logs.
-  - Skow unix vs ibm and autozone -- when they thought they could sue people for using linux
+---
+
+
+
+## Process
+
+- [JPCERTCC - LogonTracer](https://github.com/JPCERTCC/LogonTracer/wiki) - Analyzing Windows active directory event logs.
+- Fun fact: [SCO unix](https://en.wikipedia.org/wiki/SCO%E2%80%93Linux_disputes) vs [IBM](https://en.wikipedia.org/wiki/SCO%E2%80%93Linux_disputes#SCO_v._IBM) and [Autozone](https://en.wikipedia.org/wiki/SCO%E2%80%93Linux_disputes#SCO_v._AutoZone) -- when they thought they could sue people for using linux
 
 
   - C2 Hunting has blind spots
@@ -93,7 +102,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
     - not all automation is evil!
   - Focus on IP to IP however C2 can jump ports and protocols (ex: Sneaky-Creapers)
   - Long Connections - firewall state tables or even just basic wireshark stats can tell you
-  
+
 1. Beacons
 
    - Will "check in" to C2 server, else sleep -- this still can be found via `$ps`
@@ -103,13 +112,13 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
 2. Long Connections + Beacon
 
-   ![image (BHCyber_Threat_Hunting_Training.assets/image%20(1).png)](image%20(1).png)
+   ![image] (BHCyber_Threat_Hunting_Training.assets/image%20(1).png)
 
 ### What to Look for Second
 
 - external ip on blacklist
 - Domain < 30 days old
-- Unexpected rpotocol on well-known port
+- Unexpected protocol on well-known port
 - client "signature" unique within environment: Attackers using different domains
 
 ### C2 Dections Techniques
@@ -132,7 +141,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
   - tshark with R analysis -- if min is close to mean value could indicate heartbeat. If stdev is low could also indicate heartbeat.
 - Beacon 'jitter' - introducing variance/*random* into timing; but not really cause PRNG. [See pic]
 
-![image (BHCyber_Threat_Hunting_Training.assets/image%20(2)-6020760.png)](image%20(2).png)
+![image](BHCyber_Threat_Hunting_Training.assets/image%20(2)-6020760.png)
 
 #### Potential false positives
 
@@ -144,6 +153,9 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
 - Shodan and other hunting with Threat Feeds
 
+---
+
+
 
 ## IoCs
 
@@ -153,7 +165,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
   - viewstate is like a session id
 
 - Protocols to match port (Palo Alto was first FW to do state inspection) -- indication of tunneling
-- ICMP/Ping backdoor - ping packets that don't echo what was queried
+  - ICMP/Ping backdoor - ping packets that don't echo what was queried
 - Unexpected protocol use
   - Ex: Using 443 (knowing its TLS and IDS' shouldn't block) for non-https traffic 
 
@@ -195,7 +207,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
 - Threat intel
 
-  - ![image (image%20(3).png)](image%20(3).png)
+  - ![image](BHCyber_Threat_Hunting_Training.assets/image\ (3).png)
   - Sometimes Bing bot, MSN bot (web crawlers)
   - Should be secondary usage. Use your own ingeniuty and common sense before relying on this.
 
@@ -213,8 +225,11 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
 - Using [Sigma](https://github.com/Neo23x0/sigma) - Generic Signature Format for SIEM Systems
 
- 
-# FOSS Tools
+---
+
+
+
+## FOSS Tools
 
 - Start with a scoring system
 - Then persistent connections ('internal to external' then beacons then long connections)
@@ -240,7 +255,38 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
 ## Summary
 
-- Look at outgoing connections too (for C2 queries)
+- Look at outgoing connections too
+
+- Pentesters will never be exactly like attackers
+
+- Bro/Zeek are cool; same with ACM's RITA tool
+
+- [The steps] When checking for a C2 conn via network traffic:
+  - 1st Look for wierd conn's hiding in normal traffic
+    - Packets that match a port's protocol
+    - Beacons
+    - Long Connections (no idea what they were talking about)
+    - IP Address with [IPvoid](ipvoid.com)
+    - Unexpected protocol on well-known port
+    - Specific Protocols: DNS
+    - Look for signs of automation in user-agent strings. However, not all automation is evil!
+    
+  - 2nd Filter by known, bad ASN's && whitelists && blacklists && signatures && heuristics
+
+  - 3rd Check:
+
+    - Threat Intel Feeds
+
+    - If domain < 30 days old
+
+    - Can match TLS/SSL hashes (with Zeek)
+
+    - Invalid certificate checks (with Zeek)
+
+      
+
+----
+
 
 
 ## Things to look for later (in order)
