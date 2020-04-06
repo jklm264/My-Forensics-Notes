@@ -1,7 +1,7 @@
 # Thoughts and notes on all things forensics!
 
 - [Windows Forensics](Windows_Forensics)
-- [MacOS Forensics](OSX_Forensics)
+- [Apple Forensics](Apple_Forensics)
 - [Cloud Forensics](Cloud_Forensics)
 - [OSINT Forensics](OSINT_Forensics)
 - Tools
