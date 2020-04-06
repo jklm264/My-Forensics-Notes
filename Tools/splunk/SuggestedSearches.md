@@ -17,4 +17,4 @@ Basic search format: `index=<main> sourcetype=<nginx:plus:access> source=main_ac
 | Non-normal status codes, sorted, more than 1 connection (Works well with Bar Chart) | `source="main_access.log" index="main" sourcetype="nginx:plus:access" NOT (status IN ("200","301")) \|stats count as "Connections" by src_ip \|where Connections > 1 \|sort -Connections` |
 | Non-normal Protocol, sorted                                  | `source="main_access.log" index="main" sourcetype="nginx:plus:access" protocol="HTTP/1.0" \|sort -src_ip \|dedup src_ip` |
 | Top visitors                                                 | `source="main_access.log" index="main" sourcetype="nginx:plus:access"\|top limit=20 src_ip` |
-
+| IP by country (Can use Cluster Map)                          | `source="main_access.log" index=main sourcetype="nginx:plus:access" \| iplocation src_ip prefix=srcip_ \| geostats latfield=srcip_lat longfield=srcip_lon count by srcip_Country` |
