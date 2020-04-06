@@ -3,11 +3,12 @@
 * The trusted tools are OSXpmem and [Macquisition(paid)](https://www.blackbagtech.com/products/macquisition/) for acquisition
 * Take another look at [GRR](https://github.com/google/grr) with [osquery](https://github.com/osquery/osquery) for analysis
 
-# OSX vs MacOS Difference
-[Yes](https://www.quora.com/Are-there-differences-between-macOS-and-OS-X):
+# Mac OS X vs OS X vs macOS Difference
+No, just naming conventions.
 
-* macOS describes the Apple operating system designed to run on Apple laptop and desktop computers starting with version numbers 10.12 and later.
-* OS X describes the Apple operating system designed to run on Apple laptop and desktop computers starting with version number 10.8 through 10.11.
+- Mac OS was 2001 - 2011
+- OS X was 2012 - 2015
+- macOS is 2016 - present
 
 ![macversions.png](macversions.png)
 
