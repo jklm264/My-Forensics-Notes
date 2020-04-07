@@ -1,3 +1,5 @@
+# Splunk Suggested Searches
+
 Basic search format: `index=<main> sourcetype=<nginx:plus:access> source=main_access.log ...`
 
 ## Listing
@@ -18,3 +20,8 @@ Basic search format: `index=<main> sourcetype=<nginx:plus:access> source=main_ac
 | Non-normal Protocol, sorted                                  | `source="main_access.log" index="main" sourcetype="nginx:plus:access" protocol="HTTP/1.0" \|sort -src_ip \|dedup src_ip` |
 | Top visitors                                                 | `source="main_access.log" index="main" sourcetype="nginx:plus:access"\|top limit=20 src_ip` |
 | IP by country (Can use Cluster Map)                          | `source="main_access.log" index=main sourcetype="nginx:plus:access" \| iplocation src_ip prefix=srcip_ \| geostats latfield=srcip_lat longfield=srcip_lon count by srcip_Country` |
+| Send Results via email                                       | `...\| sendemail to="john@example.com"`|
+| Pages that produce the most 500 errors                       | `source="main_access.log" index=main sourcetype="nginx:plus:access" status >= 500 \| stats count(status) as cnt by uri_path, status \| sort cnt punct`|
+
+- [Lzone cheatsheet for Nginx](https://lzone.de/cheat-sheet/Splunk)
+- [Nginx logs in splunk -- Must translate](https://geekeries.org/2018/04/integrer-des-logs-nginx-dans-splunk/)
