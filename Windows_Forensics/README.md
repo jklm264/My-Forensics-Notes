@@ -1,5 +1,6 @@
 # Contents
 
+- [Active Directory](active_directory)
 - USB Info
 - Windows Registry lookup bash script
 - Windows Beginnings (Easy to check registry locations)
