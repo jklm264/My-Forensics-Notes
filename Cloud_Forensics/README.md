@@ -1,11 +1,11 @@
 # Docker Notes
 
 - [Basics](#Basics)
-- [Webapps](#Webapps - Static Sites)
+- [Webapps](#Webapps---Static-Sites)
 - [Docker Images](#Docker-Images)
-- [Working with Multiple Containers/Docker Network](#Multi-Container Environments)
+- [Working with Multiple Containers/Docker Network](#Multi-Container-Environments)
 - [Docker Compose](#Docker-Compose)
-- [Kubernetes](#Kubernetes, K8s, Kubes)
+- [Kubernetes](#Kubernetes,-K8s,-Kubes)
 
 
 
