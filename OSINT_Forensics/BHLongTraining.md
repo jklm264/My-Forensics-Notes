@@ -34,9 +34,11 @@ This was a 4 hour training
 - Deliberate and calculated process of deceiving attackers in an effort to wage a better defense....make them work harder
 - `Deception_time + Reaction_time < Attack_time`
 
-![OODA Loop (BHLongTraining.assets/image%20(5).png)](image%20(5).png)
+![OODA_Loop](BHLongTraining.assets/OODA_Loop.png)
 
-![Disrupting OODA (BHLongTraining.assets/image%20(6).png)](image%20(6).png)
+![Disrupting_OODA](BHLongTraining.assets/Disrupting_OODA.png)
+
+
 
 #### Commerical Cyber Deception (HoneyPots)
 
@@ -97,7 +99,7 @@ var next-gen="Next-Gen${curr[@]}"
 - Log on Windows
 - HoneyPots should be monitored
 - HoneyPorts (Go to Lab) -  as soon as an attacker accesses the port, it will block the attacker for any computer at all.
-  - More info from [Leagal But Frowned Upon](https://www.legalbutfrownedupon.com/honeyports/)
+  - More info from [Legal But Frowned Upon](https://www.legalbutfrownedupon.com/honeyports/)
   - Blackhills [video on this topic](https://www.blackhillsinfosec.com/messing-with-portscans-with-honeyports-cyber-deception/)
   - nmap's syn scan won't trip it
   - Syn inital sequence number packet is 32 bits
