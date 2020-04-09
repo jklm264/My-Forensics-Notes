@@ -10,7 +10,7 @@ Derrick Donnelly, Chief Scientist at BlackBag
 - [Tool/Github Link]()
 - [Other/Important Note](#)
 - [FS_Usage utility](#Tips---FS_Usage)
-- [Interesting Paths](#Important Paths)
+- [Interesting Paths](#Important-Paths)
 
 ## Summary
 
