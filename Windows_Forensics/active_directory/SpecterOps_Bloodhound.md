@@ -15,7 +15,7 @@
 
 ## Under the Hood
 
-![image (SpecterOps_Bloodhound4:7.assets/image%20(4).png)](image%20(4).png)
+![image (SpecterOps_Bloodhound4:7.assets/image%20(4).png)](linkuriouslogic.png)
 
 - During [Linkurious](https://linkurio.us/) calculating layout, GPU rendering
 

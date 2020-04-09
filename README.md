@@ -13,4 +13,4 @@
 
 ![Loop Device fix on SIFT](assets/loopdevice_Fix.png)
 
-[Copy/Paste Presentation Outline (md)](presentation_skeleton)
+[Copy/Paste Presentation Outline (md)](presentation_skeleton.txt)
