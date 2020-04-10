@@ -1,6 +1,6 @@
 # SpecterOps: Everything You Always Wanted to Know about BloodHound 4/7/20
 
-Slides: <>
+[Slides (must re-register)](https://urldefense.com/v3/__https://specterops.zoom.us/rec/play/65B7frqu_Wk3S4CV5ASDUKctW468LPis0HVLqfUKyB63VCIFZAGkM-Maa-bBExSPWb_aXvYr6veKsPDT__;!!Epnw_ITfSMW4!9xFYMSgPP4wUs07UDfkZtBgMQp8-Ytakw5LtLxYjbDmqAQIMYEZ5XnyKjbFbSolLG7Y$ )
 
 - [Blood/SharpHound Github](https://github.com/BloodHoundAD/BloodHound)
 - [Important Note](#Note)
