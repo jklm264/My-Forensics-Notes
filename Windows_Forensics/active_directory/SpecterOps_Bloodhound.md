@@ -1,6 +1,8 @@
 # SpecterOps: Everything You Always Wanted to Know about BloodHound 4/7/20
 
-- [Github](https://github.com/BloodHoundAD/BloodHound)
+Slides: <>
+
+- [Blood/SharpHound Github](https://github.com/BloodHoundAD/BloodHound)
 - [Important Note](#Note)
 - [Check out for later](#Check-out-later)
 
@@ -15,7 +17,7 @@
 
 ## Under the Hood
 
-![image (SpecterOps_Bloodhound4:7.assets/image%20(4).png)](linkuriouslogic.png)
+![linkuriouslogic](SpecterOps_Bloodhound.assets/linkuriouslogic.png)
 
 - During [Linkurious](https://linkurio.us/) calculating layout, GPU rendering
 
