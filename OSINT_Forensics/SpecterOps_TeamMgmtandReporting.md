@@ -16,16 +16,16 @@ Chris Maddalena (@cmaddalena) - advesary simulation
 
 
 
-###Building blocks for success
+### Building blocks for success
 
 - naming conventions
 
-###Remote team management
+### Remote team management
 
 - micromanaging is better
 - set clear expectations
 
-###Daily communication
+### Daily communication
 
 - daily stand-up calls
 - EoD status reports (can be emails)
