@@ -1,5 +1,7 @@
 # SpectreOps Keberoasting 4/8/20
 
+[Slides (must re-register)](https://specterops.zoom.us/webinar/register/rec/WN_yGZkfss_TT-LtaorBx287Q?meetingId=_9xvJLj_9TtJQq_u-UHjcLZ4DJrJT6a81yEYq6YPz0v4uHzYCCC09aiI2brfV6LL&playId=7pMsf-D6p2g3T9XA4QSDU6V-W469Jvms1yFN-fUFz0-9VCYLYQGgbuQbYeoJXPVTqtWsf7MSy4K0_lpt&action=play&_x_zm_rtaid=vqaO1UqiRjuoPamf_6OFpQ.1586541569152.fd5ae7a5221d078dc55c7a9f50383f6f&_x_zm_rhtaid=264)
+
 [Github](https://github.com/GhostPack/Rubeus)
 
 [Check Out Later](#Check-Out-Later)
