@@ -4,9 +4,9 @@
 
 [Autopsy](autopsy)
 
-[ElasticSearch](ElasticSearch)
+[ElasticSearch](elasticsearch)
 
-[RegRipper](ElasticSearch)
+[RegRipper](regripper)
 
 [Rekall](Rekall)
 
