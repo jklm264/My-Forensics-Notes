@@ -43,13 +43,16 @@ Allows you to pass certain parts of the project around instead of the entire pro
 #### Blocks
 Extracts a basic code block — fyi, Angr analyzes code in units of basic blocks.
 
+```python
 In [11]: block = proj.factory.block(proj.entry)
 In [12]: block.pp() # pretty-print a disassembly to stdout
+```
 
 #### States
 
+When you’re performing execution with Angr, you are working with a specific object representing a simulated program state - a SimState.
+
 ```python
-#When you’re performing execution with Angr, you are working with a specific object representing a simulated program state - a SimState. 
 In [15]: state = proj.factory.entry_state()
 In [17]: state.regs.rax
 Out[17]: <BV64 0x1c>
