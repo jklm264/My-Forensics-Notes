@@ -8,8 +8,8 @@
 
 [RegRipper](regripper)
 
-[Rekall](Rekall)
+[Rekall](Rekall_learning)
 
 [Splunk](Splunk)
 
-[Volatility](Volatility)
+[Volatility](Volatility_learning)
