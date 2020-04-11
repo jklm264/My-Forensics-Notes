@@ -1,9 +1,5 @@
 # Volatilty Cheatsheet
 
-## Crypto slow-down:
-
->`sudo python -m easy_install --upgrade pyOpenSSL`
-
 In Vol.py we like 'x' (cross reference) tools like psXview (instead of psview)
 
 ## Get from .dmp to raw with imagecopy
@@ -36,9 +32,17 @@ HINT: Volatility LOVES raw
 
 ## Recent Docs:
 
-vol.py -f Windows\ 7\ x64-Snapshot1.vmem --profile=Win7SP1x64 dumpregistry -D output
+`vol.py -f Windows\ 7\ x64-Snapshot1.vmem --profile=Win7SP1x64 dumpregistry -D output`
 
-Then RegRipper -- see that document for more info
+Then **RegRipper** -- [see that document for more info](../regripper/regripper.md)
+
+
+
+## Crypto slow-down:
+
+`sudo python -m easy_install --upgrade pyOpenSSL`
+
+
 
 ## Resources
 

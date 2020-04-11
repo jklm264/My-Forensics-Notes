@@ -1,5 +1,10 @@
-![InspectingLiveMemory Info](InspectingLiveMemory.png)
+# Tool List
 
-![ReservedAreas Info](ReservedAreas.png)
+[Angr](angr)
+[Autopsy](autopsy)
+[ElasticSearch](ElasticSearch)
+[RegRipper](ElasticSearch)
+[Rekall](Rekall)
+[Splunk](Splunk)
+[Volatility](Volatility)
 
-![WinPmem Info](WinPmem.png)
