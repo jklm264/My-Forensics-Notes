@@ -10,6 +10,6 @@
 
 [Rekall](Rekall_learning)
 
-[Splunk](Splunk)
+[Splunk](splunk)
 
 [Volatility](Volatility_learning)
