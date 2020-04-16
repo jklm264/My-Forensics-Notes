@@ -40,7 +40,7 @@ When mounting images for use with KAPE use Arsenal Image Mounter (AIM). Do NOT u
 
 ### 1. Targets
 
-- Collections of file and directory specifications <img src="KAPE.assets/mage-20200416160013091.png" width="350" height="200" style="float: right;" alt="Target Ex - !ALL">
+- Collections of file and directory specifications <img src="KAPE.assets/image-20200416160013091.png" width="350" height="200" style="float: right;" alt="Target Ex - !ALL">
 - After the list of files is built, targets are run 
 - Targets have a `.tkape` extension
 - [Doc src](https://ericzimmerman.github.io/KapeDocs/#!Pages\2.1-Targets.md)
