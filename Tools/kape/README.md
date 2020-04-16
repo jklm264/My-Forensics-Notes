@@ -40,7 +40,7 @@ When mounting images for use with KAPE use Arsenal Image Mounter (AIM). Do NOT u
 
 ### 1. Targets
 
-- Collections of file and directory specifications <img src="C:%5CUsers%5CMussm%5CDocuments%5CKAPE.assets%5Cimage-20200416160013091.png" width="350" height="200" style="float: right;" alt="Target Ex - !ALL">
+- Collections of file and directory specifications <img src="KAPE.assets/mage-20200416160013091.png" width="350" height="200" style="float: right;" alt="Target Ex - !ALL">
 - After the list of files is built, targets are run 
 - Targets have a `.tkape` extension
 - [Doc src](https://ericzimmerman.github.io/KapeDocs/#!Pages\2.1-Targets.md)
@@ -55,7 +55,7 @@ When mounting images for use with KAPE use Arsenal Image Mounter (AIM). Do NOT u
 - Modules have a `.mkape` extension
 - [See more below](#Modules-In-Depth)
 
- <img src="C:%5CUsers%5CMussm%5CDocuments%5CKAPE.assets%5Cimage-20200416155922781.png" width="600" height="250" style="float: left" alt="Module Example - PECmd">
+ <img src="KAPE.assets/image-20200416155922781.png" width="600" height="250" style="float: left" alt="Module Example - PECmd">
 
  
 
@@ -105,7 +105,7 @@ When mounting images for use with KAPE use Arsenal Image Mounter (AIM). Do NOT u
 
     - Required. Do **NOT** try to use redirection.
 
-    <img src="C:%5CUsers%5CMussm%5CDocuments%5CKAPE.assets%5Cimage-20200416165256041.png" width="700" height="300" style="float: right" alt="Module CommandLine Example">
+    <img src="KAPE.assets/image-20200416165256041.png" width="700" height="300" style="float: right" alt="Module CommandLine Example">
 
   - **ExportFormat**
 
