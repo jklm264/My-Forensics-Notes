@@ -7,13 +7,14 @@
 - [Cloud Forensics](Cloud_Forensics)
 - [OSINT Forensics](OSINT_Forensics)
 - [Tools](Tools/)
-  - [Angr Link](Tools/angr "Angr")
+  - [Angr](Tools/angr "Angr")
   - [Autopsy](Tools/autopsy/Autopsy_COVID-19Training.md)
   - [Elasticsearch](Tools/elasticsearch)
   - [RegRipper](Tools/regripper/regripper.md)
-  - [Rekall Link](Tools/Rekall_learning "Google's Rekall + GRR + some Memory Forensics notes")
+  - [Rekall](Tools/Rekall_learning "Google's Rekall + GRR + some Memory Forensics notes")
   - [Splunk](Tools/splunk)
-  - [Volatility Link](Tools/Volatility_learning "Volatility")
+  - [Volatility](Tools/Volatility_learning "Volatility")
+  - [KAPE](Tools/kape)
 
 
 
