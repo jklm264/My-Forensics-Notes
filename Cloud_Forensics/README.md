@@ -40,6 +40,7 @@
 
 - Check containers that are running `$docker ps`
 	- Check containers that _have_ run: `$docker ps -a`
+- `$docker stats` for all you nerds
 
 ### Running interactively
 
