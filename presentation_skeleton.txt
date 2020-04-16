@@ -6,7 +6,7 @@
 
 ## Summary
 
-<img src="" width="350" height="200" style="float: right;" alt="alt text">
+<img src="" width="350" height="200" align="right" alt="alt text">
 
 ## Check Out Later
 
