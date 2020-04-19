@@ -6,6 +6,9 @@
 - [Things for Later](#Things-for-Later)
 
 
+## Working with KAPE
+
+- When trying to access a network drive via cmd: `pushd \\vmware-host\Shared Folders`
 
 When mounting images for use with KAPE use Arsenal Image Mounter (AIM). Do NOT use FTK Imager or Dokan.
 
