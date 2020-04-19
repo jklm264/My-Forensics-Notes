@@ -8,7 +8,7 @@
 - [OSINT Forensics](OSINT_Forensics)
 - [Tools](Tools/)
   - [Angr](Tools/angr "Angr")
-  - [Autopsy](Tools/autopsy/Autopsy_COVID-19Training.md)
+  - [Autopsy](Tools/autopsy)
   - [Elasticsearch](Tools/elasticsearch)
   - [RegRipper](Tools/regripper/regripper.md)
   - [Rekall](Tools/Rekall_learning "Google's Rekall + GRR + some Memory Forensics notes")
