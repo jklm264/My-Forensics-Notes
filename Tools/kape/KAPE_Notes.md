@@ -141,7 +141,7 @@
 - [SANS YouTube](https://www.youtube.com/watch?v=iYyWZSNBNcw&feature=youtu.be)
 - [Forensics Lunch YouTube](https://www.youtube.com/watch?v=Lwu1Deb6-xg)
 - [Mash That Key: collect and send KAPE-recovered data from many systems to an SFTP server in the cloud](http://www.mashthatkey.com/2019/10/use-kape-to-collect-data-remotely-and.html)
-- 
+- [Mark Hallman's 2019 DFRWS KAPE Workshop Slides](https://github.com/mark-hallman/DFRWS-2019-KAPE-Workshop/blob/master/media/DFRWS%202019%20-%20KAPE.pdf)
 
 
 ## Things for Later
