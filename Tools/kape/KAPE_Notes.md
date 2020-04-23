@@ -128,7 +128,7 @@
 - Can be done over [SFTP](https://ericzimmerman.github.io/KapeDocs/#!Pages\6.-SFTP.md) 
 - Can change "All at once" processing to Linear via the `--ul` switch.
 - [Other Tips & Tricks](https://ericzimmerman.github.io/KapeDocs/#!Pages\60-Tips-and-tricks.md)
-  - Use environment variables in KAPE: `"--mdest c:\temp\out%COMPUTERNAME%"`
+  - Use environment variables in KAPE: `echo "--mdest c:\temp\out%COMPUTERNAME%"`
   - KAPE should best be run as system.
 - KAPE [supports proxy](https://github.com/EricZimmerman/KapeFiles/issues/121#issuecomment-524682298)
 
