@@ -10,6 +10,8 @@
 - With Amcache, in `ProgramExecution\*AssociatedFileEntires`, nice to see *what else* a program installed.
 - With PECmd, check the `\*PECmd_Output{,_Timeline}.csv`
 - In `EventLogs\EvtxECmd_Output.csv` you can find the correlated Computer Username ('@Name":"Username","#text":"<name>"') and User's SID ('@Name":"UserSid","#text":"S-1-5-21....') 
+- Can run multiple targets/modules at once with comma seperated list.
+- Should include [this RECmd_Batch_MC](https://github.com/EricZimmerman/RECmd/blob/master/BatchExamples/RECmd_Batch_MC.reb) for the RECmd Module.
   
   ## Useful Cmds
   
@@ -23,4 +25,4 @@
   
   # Ran KAPE on Investigator machine after transfering collected files from VMware shared folder
   C:>kape --msource c:\Users\investigator\Desktop\KAPE_output\c --module !EZParser --mdest C:\Users\investigator\Desktop\KAPE_output\module.output 
-  ```
+```
