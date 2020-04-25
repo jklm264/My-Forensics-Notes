@@ -309,9 +309,9 @@ Azure Smart Lockout - Locks out auth attempts whenever bruteforce or spray attem
 - GOAL: Steal Azure access tokens from a compromised system and use them to authenticate to Azure.
 - Can steal profile access with two files `TokenCache.dat` & `AzureRmContext.json` in the `%USERPROFILE%\.Azure\` directory. Then just reload doing the following:
 
-1. ![image-20200425154333808](BHIS_Cloud.assets/Lab4_Step1.png)
+1. ![image](BHIS_Cloud.assets/Lab4_Step1.png)
 
-2. ![image-20200425154413680](BHIS_Cloud.assets/Lab4_Step2.png)
+2. ![image](BHIS_Cloud.assets/Lab4_step2.png)
 
 3. `C:> Import-AzContext -Profile 'C:\Temp\Live Tokens\StolenToken.json'`
 
