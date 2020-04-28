@@ -2,15 +2,15 @@
 
 Derrick Donnelly, Chief Scientist at BlackBag
 
-	- Head of IT Security Apple Computer years ago
-	- CTO/Founder of BlackBag
+- Head of IT Security Apple Computer years ago
+- CTO/Founder of BlackBag
 
 
 
-- [Tool/Github Link]()
-- [Other/Important Note](#)
 - [FS_Usage utility](#Tips---FS_Usage)
 - [Interesting Paths](#Important-Paths)
+
+
 
 ## Summary
 
@@ -101,7 +101,7 @@ Now two volumes:
   - Volumes can be group together but must be in same container
   - Users won't notice a difference however under Finder's Applications view they are taken from seperate volumes.
 
-#### 
+ 
 
 ### Firmlinks
 

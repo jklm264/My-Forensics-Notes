@@ -6,6 +6,8 @@ Taught by: Beau Bullock (@dafthack)
 
 - [Lab setup link](https://www.blackhillsinfosec.com/training/breaching-the-cloud-perimeter-training/)
 
+
+
 ## Summary
 
 1. [Cloud PenTest Auth](#Cloud-PenTest-Authorization)

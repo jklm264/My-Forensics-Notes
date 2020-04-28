@@ -1,8 +1,8 @@
 Instructions
 
-git clone https://github.com/CTFd/CTFd
-cd CTFd
-docker-compose up -d
+> $git clone https://github.com/CTFd/CTFd
+> $cd CTFd
+> $docker-compose up -d
 
 That's it.
 

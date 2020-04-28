@@ -1,18 +1,36 @@
 # Docker Notes
 
+
+
+[CTFd setup via docker](ctfd_setup.txt)
+
+
+
 ## Up Next
 
 - <docs.docker.com/samples/>
 - Play around with Docker-Compose and multi-container envs
 
+
+
 ## Notes ToC
 
+- [TLDR](#TLDR)
 - [Basics](#Basics)
 - [Webapps](#Webapps---Static-Sites)
 - [Docker Images](#Docker-Images)
 - [Working with Multiple Containers/Docker Network](#Multi-Container-Environments)
 - [Docker Compose](#Docker-Compose)
 - [Kubernetes](#Kubernetes,-K8s,-Kubes)
+- [Troubleshooting on Mac](#Troubleshooting)
+
+
+
+### TLDR
+
+To run: `$docker run --rm -p 8888:5000 -it <image>`
+
+To delete: `$docker rmi <image_id>`
 
 
 
@@ -24,17 +42,19 @@
 - Docker Client - cli tool
 - Docker Hub - [registry](https://hub.docker.com/explore) of docker images
 
+
+
 ## Basics
 
 ### List/Delete
 
 - List all images on your system: `$docker list`
-	- Delete an image: `$docker rmi <image_id>`
-	- Delete multiple: `$docker images -a | grep "pattern" | awk '{print $3}' | xargs docker rmi`
-	- To keep a clean system: `$docker system prune -a`
-	- Delete just containers (not images): `$docker rm <container_id>`
-		- Also `$docker rm $(docker ps -a -q -f status=exited)` # _q_ returns ids, _f_ is filter
-	- When you create the container you can delete the instance via: `$docker run --rm <image>`
+- Delete an image: `$docker rmi <image_id>`
+  - Delete multiple: `$docker images -a | grep "pattern" | awk '{print $3}' | xargs docker rmi`
+  - Delete just containers (not images): `$docker rm <container_id>`
+    - Also `$docker rm $(docker ps -a -q -f status=exited)` # _q_ returns ids, _f_ is filter
+  - When you create the container you can delete the instance via: `$docker run --rm <image>`
+- To keep a clean system: `$docker system prune -a`
 
 ### Status checks
 
@@ -46,18 +66,22 @@
 
 - To run a box interactively run an instance: `$docker run -it busybox sh`
 
+
+
 ## Webapps - Static Sites
 
 - `$docker run -d -P --name static-site <image>`
-	- _d_ detaches the terminal
-	- _P_ publishes all exposed ports to random ports on host machines
-	- _name_ is a connonical name
+	- _-d_ detaches the terminal
+	- _-P_ publishes all exposed ports to random ports on host machines
+	- _name_ is a canonical name
 
 - List port mappings: `$docker port <image_name>`
 
 - Can specify custom ports: `$docker run -p 8888:80 <image>` will map container's:80 to localhost:8888. Therefore, you will access container service via <http://localhost:8888>.
 
 - To stop a detached container: `$docker stop <name|container_id>`
+
+
 
 ## Docker Images
 
@@ -81,6 +105,8 @@ Goal: Run a flask app
 6. Run the app on start: `CMD ["python", "./app.py"]`
 7. `$docker build` creates an images from the Dockerfile.
 	- can do `$docker build -t <username/appname> .`
+	  - will build image (or from cache)
+	  - _-t_ name of the image
 	- to rename `$docker tag <old_name> <new_name>;docker rmi <old_name>`
 8. Run the container: `$docker run -p 8888:5000 <image>`
 
@@ -98,6 +124,12 @@ CMD ["python", "./app.py"]
 ### Addition Stuffs:
 
 9. Push image to publish (think git push): l`$docker push <image>`
+
+
+
+[My own](dockerfile) dockerfile.
+
+
 
 ## Multi-Container Environments
 
@@ -166,8 +198,12 @@ volumes:
 - Def: "Open-source container-orchestration system for automating application deployment, scaling, and management."
 - Control Manager checks if states of nodes/workers is actually what is wanted.
 
-[Sample Project](https://github.com/dockersamples/atsea-sample-shop-ap)
+
+
+## Troubleshooting
+
+If you get error: `docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.` just run Docker app from _Spotlight Search_
 
 
 
-[**Src**](https://docker-curriculum.com)
+[**Page Src**](https://docker-curriculum.com)
