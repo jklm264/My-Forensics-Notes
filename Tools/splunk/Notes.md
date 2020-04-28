@@ -1,10 +1,5 @@
 # Helpful Notes
 
-## Contents
-
-- [Remove Date](How-to-remove-data)
-- [Nginx Logs](Nginx-Logs)
-
 ### How to remove data
 
 1. List sources:  ` | metadata type=hosts index=* OR index=_*` [StackOverflow](https://answers.splunk.com/answers/120461/how-to-see-all-source-and-sourcetype-list.html)
