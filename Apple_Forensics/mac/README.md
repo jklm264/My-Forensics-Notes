@@ -51,7 +51,7 @@
 
 # Mac OS X vs OS X vs macOS Difference
 
-- Mac OS was 2001 - 2011 <img src="C:/Users/Mussm/Downloads/My-Forensics-Notes/Apple_Forensics/mac/Mac_README.assets/macversions.png" height=380 align="right" />
+- Mac OS was 2001 - 2011 <img src="Mac_README.assets/macversions.png" height=380 align="right" />
 
 - OS X was 2012 - 2015
 - macOS is 2016 - present
