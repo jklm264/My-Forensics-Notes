@@ -5,3 +5,7 @@
 ## Working with Autopsy
 
 - Make sure to [download the NSRL](https://sourceforge.net/projects/autopsy/files/NSRL/)
+
+
+
+- [Training Notes](Autopsy_COVID-19Training.md)

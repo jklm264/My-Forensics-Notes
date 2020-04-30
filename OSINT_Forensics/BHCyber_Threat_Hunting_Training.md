@@ -112,7 +112,9 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
 2. Long Connections + Beacon
 
-   ![image] (BHCyber_Threat_Hunting_Training.assets/image%20(1).png)
+   <img src="BHCyber_Threat_Hunting_Training.assets/kmeans.png" height=375 />
+   
+   
 
 ### What to Look for Second
 
@@ -121,9 +123,9 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 - Unexpected protocol on well-known port
 - client "signature" unique within environment: Attackers using different domains
 
-### C2 Dections Techniques
+### C2 Detections Techniques
 
-1. Identify persisten conns
+1. Identify persistent conns
    - Will try to blend in
    - To search IP's use ipvoid.com
 2. internal to external
@@ -141,7 +143,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
   - tshark with R analysis -- if min is close to mean value could indicate heartbeat. If stdev is low could also indicate heartbeat.
 - Beacon 'jitter' - introducing variance/*random* into timing; but not really cause PRNG. [See pic]
 
-![image](BHCyber_Threat_Hunting_Training.assets/image%20(2)-6020760.png)
+![image](BHCyber_Threat_Hunting_Training.assets/jitter.png)
 
 #### Potential false positives
 
@@ -149,7 +151,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 - You are looking for: perfectly randomized beacon
 - Things that do beacon: NTP, internal DNS forwarder to external DNS resolvers, chat programs, security software
 
-### Next
+### Then
 
 - Shodan and other hunting with Threat Feeds
 
@@ -162,7 +164,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 - Gotta develop a threat rating system
 
 - Ex: VSAgent is a base64 view state parameter with tcpdump
-  - viewstate is like a session id
+  - `viewstate` is like a session id
 
 - Protocols to match port (Palo Alto was first FW to do state inspection) -- indication of tunneling
   - ICMP/Ping backdoor - ping packets that don't echo what was queried
@@ -174,7 +176,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 #### DNS
 
 - Using DNS as C2 (super easy)
-  - Check FQDN that arent normal (normal: [google, akamia, amazon, etc])
+  - Check FQDN that aren't normal (normal: [Google, akamia, amazon, etc])
     - Extract DNS traffic from PCAPs then sort and count uniq's (`$|sort|uniq -c|sort -rn` [reference from [linux dojo talk from before (exact time in Utube vid)](https://youtu.be/-jNkjuWMFrk?t=918)])
   - Match DNS DST_IP queries!
     - Careful of DNS-over-HTTPS
@@ -192,12 +194,12 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
 - Want to identify invalid, "unable to get local issuer certificate"
 - Extended Validation (EV) certs are more trusted and can assign negative threat points
-- Frindge-case: [Iran](https://www.wired.com/2011/03/comodo-hack/)
+- Fringe-case: [Iran](https://www.wired.com/2011/03/comodo-hack/)
 
 #### Check target IP Address
 
 - Start simple
-  - ASNs (zip codes for the internet) -- who manages them? (probaly Microsoft [azure, xbox, etc] and Amazon)
+  - ASNs (zip codes for the internet) -- who manages them? (probably Microsoft [azure, xbox, etc] and Amazon)
     - BGP Ranking (bgpranking.circl.lu) -- a neighborhood you don't want your computer talking to
   - Geolocation info? that one website for osint
     - Those that aren't VPN'd
@@ -205,15 +207,16 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
   - IP delegation
   - PTR records
 
-- Threat intel
+- Threat Intel
 
-  - ![image](BHCyber_Threat_Hunting_Training.assets/image\ (3).png)
+  <img src="BHCyber_Threat_Hunting_Training.assets/intel.png" height=300/>
+
   - Sometimes Bing bot, MSN bot (web crawlers)
-  - Should be secondary usage. Use your own ingeniuty and common sense before relying on this.
+  - Should be secondary usage. Use your own ingenuity and common sense before relying on this.
 
   ##### Ephemeral Threat Intel
 
-  - intel that changes rapidly
+  - Intel that changes rapidly
   - should be done by your av though
   - Ex of this: IP's, hashes, etc
 
@@ -253,6 +256,8 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 10. Open Source Threat Feeds sometime better than the Commercial Threat Feeds
     - Spamhause
 
+
+
 ## Summary
 
 - Look at outgoing connections too
@@ -261,8 +266,10 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 
 - Bro/Zeek are cool; same with ACM's RITA tool
 
-- [The steps] When checking for a C2 conn via network traffic:
-  - 1st Look for wierd conn's hiding in normal traffic
+- **[The steps]** When checking for a C2 conn via network traffic:
+  
+  - 1st Look for weird conn's hiding in normal traffic
+    
     - Packets that match a port's protocol
     - Beacons
     - Long Connections (no idea what they were talking about)
@@ -270,7 +277,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
     - Unexpected protocol on well-known port
     - Specific Protocols: DNS
     - Look for signs of automation in user-agent strings. However, not all automation is evil!
-    
+  
   - 2nd Filter by known, bad ASN's && whitelists && blacklists && signatures && heuristics
 
   - 3rd Check:
@@ -282,7 +289,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
     - Can match TLS/SSL hashes (with Zeek)
 
     - Invalid certificate checks (with Zeek)
-
+  
       
 
 ----
@@ -307,3 +314,7 @@ Every attack: escalate privileges, move laterally , establish C2 (what we're tal
 - http://www.dfirnotes.net/class_links/
 - https://osint.bambenekconsulting.com/feeds/
 - lol https://www.activecountermeasures.com/why-is-my-program-running-slowly/
+
+
+
+[Top](#Contents)

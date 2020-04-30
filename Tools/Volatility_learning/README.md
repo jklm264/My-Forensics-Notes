@@ -2,6 +2,10 @@
 
 In Vol.py we like 'x' (cross reference) tools like psXview (instead of psview)
 
+[Automated Script (needs edits)](automate_vol.sh)
+
+
+
 ## Get from .dmp to raw with imagecopy
 
 HINT: Volatility LOVES raw

@@ -1,14 +1,10 @@
 # SpecterOps:Remote Team Project Management and Reporting Construction 4/10/20
 
-Slides: <>
-
 Chris Maddalena (@cmaddalena) - advesary simulation 
 
 - [Chris's Github Link](https://github.com/ChrisMaddalena)
   - [Red Team Cheat Sheets](https://github.com/chrismaddalena/RedTeamMemory/blob/master/Mimikatz.md)
 - [Check Out Later](#Check-Out-Later)
-
-
 
 
 

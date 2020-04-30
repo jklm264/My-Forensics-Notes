@@ -1,10 +1,6 @@
 # Black Hills Webcast (2/13) -  OSINT
 
-#osint
 
-## Info
-
-- Hunt Team Operations Center
 
 ## Intro
 
@@ -12,26 +8,26 @@ Company info on the internet: Organization history, employees pii, leadership, t
 
 - **Hr is your friend**: consider them the SME of the company’s social media
 - [Grey literature - Wikipedia](https://en.wikipedia.org/wiki/Grey_literature)
-
 - Exifdata of leaderships pictures 
 - BeenVerified is great but costly
+- How do osint tools , how do they parse data or just apis? APIs
+- Create Google search alerts
 
-## Sources
+
 
 ![Sources pic](assets/sources.png)
 
 
-## Google search results
-
-![Google search results pic](assets/googlesearch.png)
 
 ## Cert transparency 
 
+- **Purpose**: for enumeration
 - SSLMate on GitHub -  _SSLMate/certspotter_
-- for enumeration
 - DNSTwister tool
 
-### More Recon
+
+
+## Recon
 
 - HackerTarget.com is online tools
   - Part of it: Dnsdumper is great for enumeration via api
@@ -43,22 +39,19 @@ Company info on the internet: Organization history, employees pii, leadership, t
   - Hashtags: #ciscosystems, #nicebadge, #workplace
 - Hunter.io for email addresses
   - has api calls
-- Even haveibeenpwnd.com with domain monitoring
-
-- Re-active SPF Auto-Recon
+- haveibeenpwnd.com with domain monitoring
+- [Re-active SPF Auto-Recon](github.com/Relkci/AutoSPFRecon)
   - sending emails not from internal domain
-  - github.com/Relkci/AutoSPFRecon
-    - [Offensive SPF: How to Automate Anti-Phishing Reconnaissance Using Sender Policy Framework - Black Hills Information Security](https://www.blackhillsinfosec.com/offensive-spf-how-to-automate-anti-phishing-reconnaissance-using-sender-policy-framework/)
-    - DMARC forensic report
+  - [Offensive SPF: How to Automate Anti-Phishing Reconnaissance Using Sender Policy Framework - Black Hills Information Security](https://www.blackhillsinfosec.com/offensive-spf-how-to-automate-anti-phishing-reconnaissance-using-sender-policy-framework/)
+  - DMARC forensic report
 
 - Grayhatwarefare - allows you to search Amazon S3 Buckets
 - LinkedINT and Peasant
-  - point peasant to cookie file
-- Twitter scraper
-  - github.com/twintproject/twint
+  - point Peasant to cookie file
+- [Suggested Twitter scraper](github.com/twintproject/twint)
+
+
 
 ## Questions
 
-- how do osint tools , how do they parse data or just apis? APIs :)
-
-- ![My Question](assets/myQ.png)
+- Is there a tool recommended to amalgamate all OSINT information into easily viewable profiles/relation trees? Preferably FOSS. **Spiderfoot**!

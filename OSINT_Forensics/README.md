@@ -15,6 +15,8 @@
 - dehashed.com (paid)
 - spiderfoot
 
+
+
 ## Notes from Presentations
 
 - [BlackHills OSINT 2-13](BlackHills_Webcast[2-13-20]-OSINT.md)
