@@ -2,14 +2,10 @@
 
 [My Mac Was Hacked](mymacwashacked.md)
 
-
-
 ## Thing to Look into Next
 
 - [ ] Take another look at [GRR](https://github.com/google/grr) with [osquery](https://github.com/osquery/osquery) for analysis
 - [ ] At the moment, I cannot find any forensic ACQUISITION tools which work on Mojave, or Catalina ([my notes on acquisition tools](Acquisition_Tools.md)).
-
-
 
 ## Mac Internals
 
@@ -18,16 +14,12 @@
 - [Clipboard Hacking Notes](Clipboard.md)
 - [BlackBag Spotlight and Keychain Deep Dive 3/26/20](BlackBag_SpotlightAndKeychain.md)
 - [BlackBag New Catalina Artifacts 4/9/20](BlackBag_CatalinaArtifacts.md)
-
-
-
+- [BlackBag iCloud File Sharing 4/30/20](BlackBag_iCloudFSsharing.md)
 
 ## Tools
 
 - [Acquisition Tool List](Acquisition_Tools.md)
 - [Tool List](ActiveDev.md)
-
-
 
 ## Talks
 
@@ -35,8 +27,6 @@
 - [DEF CON 25 - Patrick Wardle - Offensive Malware Analysis: Dissecting OSX FruitFly](https://www.youtube.com/watch?v=q7VZtCUphgg&t=1s)
 - [Patrick Wardle - Harnessing Weapons of Mac Destruction - DEF CON 27 Conference](https://www.youtube.com/watch?v=InL3YA_6P6s)
 - [301 Black Box Mac OSX Forensics Brian Martin - start at ~27m](https://www.youtube.com/watch?v=AG72W_LVidI)
-
-
 
 ## Links
 
@@ -48,8 +38,7 @@
 * www.dfir.training (great forum too)
 
 
-
-# Mac OS X vs OS X vs macOS Difference
+## Mac OS X vs OS X vs macOS Difference
 
 - Mac OS was 2001 - 2011 <img src="Mac_README.assets/macversions.png" height=380 align="right" />
 
