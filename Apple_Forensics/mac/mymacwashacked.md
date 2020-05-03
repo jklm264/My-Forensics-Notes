@@ -26,6 +26,7 @@
 
 - LuLu Firewall (and other Patrick Wardle/Objective-See [products](https://objective-see.com/products.html))
 - Turn on Firewall
+- Turn on Full Disk Encryption
 - Another firewall: [LittleSnitch](https://obdev.at/products/littlesnitch/index.html)
 
 ## If too many notifications from Chrome:
