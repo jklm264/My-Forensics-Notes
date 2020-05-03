@@ -2,11 +2,11 @@
 
 - [My Notes: Windows Beginnings (Easy to check registry locations)](Windows_Beginnings.md)
 
-- [Active Directory Notes and Presentations and Tools](active_directory)
+- [Active Directory](active_directory)
 
 - [Kerberoasting (SpectreOps 4/8/20)](SpectreOps_Keberoasting.md)
 
-- [USB Info](USB_info.txt)
+- [My USB Info](USB_info.txt)
 
 - [DB of Windows Artifacts Github LINK](https://github.com/ForensicArtifacts/artifacts/blob/master/docs/Artifacts%20definition%20format%20and%20style%20guide.asciidoc)
 

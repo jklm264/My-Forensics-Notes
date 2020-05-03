@@ -6,5 +6,6 @@
 
 ## Presentations
 
-- [BHIS Cloud Talk 4/25/20](BHIS_Cloud/BHIS_Cloud.md)
+- [BHIS Cloud 4-hour class 4/25/20](BHIS_Cloud/BHIS_Cloud.md)
+  - MS Azure, AWS S3 Buckets, and GCP attacks. And steps for proper recon.
 

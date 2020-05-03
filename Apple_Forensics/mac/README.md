@@ -13,8 +13,11 @@
 - [Jonathan Levin's Mac Internals Book](MacInternals.md)
 - [Clipboard Hacking Notes](Clipboard.md)
 - [BlackBag Spotlight and Keychain Deep Dive 3/26/20](BlackBag_SpotlightAndKeychain.md)
+  - Metadata 'item-use count' is a thing. In spotlight you can find deleted files, successful searches, and more. These can be found in `/Volumes/*/Spotlight-V100` compressed. The common security services manager Keychain can be found at `/Library/Keychains` with the SystemKey (when needing system access).
 - [BlackBag New Catalina Artifacts 4/9/20](BlackBag_CatalinaArtifacts.md)
+  - There are many new artifacts that have just been added to Catalina version. First, the changes made were that all 32-bit app support was dropped, there is stricter code signing requirements, and there are now seperated System and Data Volume Groups. The new features include APFS containers as well as pooled storage, the idea of Firmlinks, relocated items directory, sidecar (and it's [meta]data), and less informational unified logs.
 - [BlackBag iCloud File Sharing 4/30/20](BlackBag_iCloudFS_sharing.md)
+  - iCloud locations are in `MobileDocumets/`and access to this data can be used for a variety of purposes.
 
 ## Tools
 
