@@ -17,8 +17,10 @@
   - [KAPE](Tools/kape)
 
 
-
+---
 [Copy/Paste Presentation Outline (md)](presentation_skeleton.txt)
+
+[This Youtube Playlist](https://www.youtube.com/playlist?list=PLlY54XJEpOzyj8Dvqu8e78AcH6s5ZKmZM)
 
 ![Loop Device fix on SIFT](assets/loopdevice_Fix.png)
 
