@@ -15,7 +15,7 @@
   - [Splunk](Tools/splunk)
   - [Volatility](Tools/Volatility_learning "Volatility")
   - [KAPE](Tools/kape)
-
+  - [Radare2](Tools/r2)
 
 ---
 [Copy/Paste Presentation Outline (md)](presentation_skeleton.txt)
