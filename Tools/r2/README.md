@@ -1,4 +1,4 @@
-# Radare2 Notes
+# Radare2
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Radare2.svg/1200px-Radare2.svg.png" />
 
@@ -11,4 +11,5 @@
 3. `wa` - write asm
 4. Profit
 
+### From MagicCTF 2020, Linux 300 Memedit
 <img src="r2.Pictures/image-20200516135710066.png"/>
