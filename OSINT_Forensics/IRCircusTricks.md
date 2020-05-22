@@ -3,7 +3,7 @@
 
 Presenters: Shelly Giesbrecht from CrowdStrike @nerdiosity and Heather @LitMoose
 
-<img src="IRCircusTricks.Pictures/image-20200521132709859.png" width="300" height="200" alt="alt text" align=left><img src="IRCircusTricks.Pictures%5Cimage-20200521134844119.png" alt-text="Great security quotes" width=500 align=right/>
+<img src="IRCircusTricks.Pictures/image-20200521132709859.png" width="300" height="200" alt="alt text" align=left><img src="IRCircusTricks.Pictures/image-20200521134844119.png" alt-text="Great security quotes" width=500 align=right/>
 
 
 
