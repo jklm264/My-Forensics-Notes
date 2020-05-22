@@ -18,6 +18,8 @@
   - There are many new artifacts that have just been added to Catalina version. First, the changes made were that all 32-bit app support was dropped, there is stricter code signing requirements, and there are now seperated System and Data Volume Groups. The new features include APFS containers as well as pooled storage, the idea of Firmlinks, relocated items directory, sidecar (and it's [meta]data), and less informational unified logs.
 - [BlackBag iCloud File Sharing 4/30/20](BlackBag_iCloudFS_sharing.md)
   - iCloud locations are in `MobileDocumets/`and access to this data can be used for a variety of purposes.
+- [5/20/20 macOS Forensics: The Next Level - Taming the T2 Chip & More](TamingtheT2Chip.md) - T2 chip only encrypts APFS volumes. Check out [Mac_apt](https://github.com/ydkhatri/mac_apt) and the [presenter's github](https://github.com/ydkhatri/MacForensics)
+- [5/21/20 Take a byte! Exploring Apple's MacOS Operating System Artifacts](ExploringMacOSArtifacts.md) - How to image a Catalina Mac, KnowledgeC.db, USB, and Airdrop.
 
 ## Tools
 

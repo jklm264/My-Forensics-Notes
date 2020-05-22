@@ -26,4 +26,5 @@
   - Observe-Orient-Decide-Act Loop. Canary Tokens are super useful, and so are honeypots.
 - [SpecterOps Remote Team Project Management and Reporting Construction 3-10-20](SpecterOps_TeamMgmtandReporting.md) 
   - Having templates and guides memorized will help flow in the after-action reports; and for end-user understanding purposes. Can automate most of this via Skelton files (vim) or simple macros/bash scripting.
-
+- [5/19/20 Investigating Corporate Misconduct with Axiom Cyber](InvestigatingCorporateMisconduct.md) - a nice PII Regex sheet
+- [5/21/20 The Art of Juggling: IR Circus Tricks for the Overwhelmed](IRCircusTricks.md) - Non-technical talk but great things to keep in mind during an IR.
