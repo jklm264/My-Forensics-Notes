@@ -5,7 +5,7 @@
 
 
 
-<img src="EmotingMaldoc.Pictures%5Cimage-20200522114637541.png" alt-text="Fun Obfuscation" />
+<img src="EmotingMaldoc.Pictures/image-20200522114637541.png" alt-text="Fun Obfuscation" />
 
 
 
