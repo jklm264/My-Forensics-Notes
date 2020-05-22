@@ -4,7 +4,7 @@ Trey Amick @amick_tryz trey.amick@magnetforensics.com
 
 - [KnowledgeC Database](#KnowledgeC-Database)
 
-- [Check Out Later2](#Check-Out-Later2)
+- [Check Out Later](#Check-Out-Later)
 
 
 
