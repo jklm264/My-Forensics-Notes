@@ -91,7 +91,7 @@
 
 ### Evtx Logs that store info about storage devices
 
-<img src="DFWorkflow.assets/image-20200528112646196.png" height=250 align="left"/>
+<img src="DFWorkflow.assets/image-20200528112646196.png" height=250 />
 
 - Can use [Microsoft Log Parser 2.2](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
   - Ex: <img src="DFWorkflow.assets/image-20200528112840743.png" height=200/>
