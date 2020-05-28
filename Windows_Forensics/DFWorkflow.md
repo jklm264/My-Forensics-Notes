@@ -4,7 +4,7 @@
 - [Final Workflow](#Final-Workflow)
 - [Check Out Later](#Check-Out-Later)
 
-<img src="DFWorkflow.assets/image-20200528110332744.png" height=200 align="left" alt-text="His wisdom"/>
+<img src="DFWorkflow.assets/image-20200528110332744.png" height=200 alt-text="His wisdom"/>
 
 ## Case 1
 
