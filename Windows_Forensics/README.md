@@ -8,7 +8,7 @@
 
 - [My USB Info](USB_info.txt)
 
-- [DB of Windows Artifacts Github LINK](https://github.com/ForensicArtifacts/artifacts/blob/master/docs/Artifacts%20definition%20format%20and%20style%20guide.asciidoc)
+- [The Windows Tools and Artifacts: "The Definative Compendium"](https://aboutdfir.com/toolsandartifacts/windows/) and [DB of Windows Artifacts Github LINK](https://github.com/ForensicArtifacts/artifacts/blob/master/docs/Artifacts%20definition%20format%20and%20style%20guide.asciidoc)
 
 - [5/22/20 Magnet Forensics: Emoting Over Emotet and Maldoc](EmotingMaldoc.md)  - Lots of step-by-steps using tools to analyze different types of malicious docs. Check out [Malwareoverview](https://github.com/alexandreborges/malwoverview), Didier Stevens' [Blog](https://blog.didierstevens.com/) and [Tools Suite](https://github.com/DidierStevens/DidierStevensSuite), and [Lazy Office Analyzer](https://github.com/tehsyntx/loffice).  
 
