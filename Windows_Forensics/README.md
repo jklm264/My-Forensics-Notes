@@ -12,14 +12,13 @@
 
 - [5/22/20 Magnet Forensics: Emoting Over Emotet and Maldoc](EmotingMaldoc.md)  - Lots of step-by-steps using tools to analyze different types of malicious docs. Check out [Malwareoverview](https://github.com/alexandreborges/malwoverview), Didier Stevens' [Blog](https://blog.didierstevens.com/) and [Tools Suite](https://github.com/DidierStevens/DidierStevensSuite), and [Lazy Office Analyzer](https://github.com/tehsyntx/loffice).  
 
+- [5/28/20 Magnet Forensics: Creating a Digital Forensic Workflow to Combat Data Exfiltration](DFWorkflow.md) - Unique look on DF investigation. **USB (Case 3)** and **Final Workflow** are the highlights.
+
 ## Tools and Scripts
 
 - [Windows Registry lookup bash script](windowsplus.sh)
 
 
-
 ## Virtualization Hints
 
 From VMware to Vbox: `ovftool “C:\Users\NAME\Documents\Virtual Machines\Windows 7 x64\Windows 7 x64.vmx” C:\Users\NAME\export.ovf`
-
-
