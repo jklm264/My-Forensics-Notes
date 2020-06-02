@@ -4,6 +4,7 @@
 
 - [Windows Forensics](Windows_Forensics)
 - [Apple Forensics](Apple_Forensics)
+- [Linux Forensics](Linux_Forensics)
 - [Cloud Forensics](Cloud_Forensics)
 - [OSINT Forensics](OSINT_Forensics)
 - [Tools](Tools/)

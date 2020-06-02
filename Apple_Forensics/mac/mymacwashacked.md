@@ -9,7 +9,19 @@
 
 - Check Users & Groups *Login Items*
 - Make sure SIP is on via: `$csrutil status`
-- Check StartUp Programs
+- Check StartUp Programs ([Yelp's OSXCollector](https://github.com/Yelp/osxcollector) and [Yonts Malicious Streams](http://www.malicious-streams.com/article/Mac_OSX_Startup.pdf)) all used by *launchd*
+  - `/System/Library/LaunchAgents/`
+  - `/System/Library/LaunchDaemons/`
+  - `/Library/LaunchAgents/`
+  - `~/Library/LaunchAgents/`
+  - `/Library/LaunchDaemons/`
+  - `/System/Library/ScriptingAdditions/`
+  - `/Library/ScriptingAdditions/`
+  - `/System/Library/StartupItems/`
+  - `/Library/StartupItems/`
+  - `~/Library/Preferences/com.apple.loginitems.plist`
+  - `/Library/Preferences/com.apple.loginwindow.plist` -  set to launch at user login. Also serves as backend to GUI *Login Items* tab in System Preferences.
+  - `~/Library/Preferences/loginwindow.plist`
 - Check Security & Privacy allowed apps
 	- Make sure firewall is turned on
 - [Thomas Reed's Adware Removal Guide (from Malwarebytes)](https://www.thesafemac.com/arg/)

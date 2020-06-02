@@ -2,10 +2,11 @@
 
 [My Mac Was Hacked](mymacwashacked.md)
 
+
 ## Thing to Look into Next
 
 - [ ] Take another look at [GRR](https://github.com/google/grr) with [osquery](https://github.com/osquery/osquery) for analysis
-- [ ] At the moment, I cannot find any forensic ACQUISITION tools which work on Mojave, or Catalina ([my notes on acquisition tools](Acquisition_Tools.md)).
+- [ ] Mac\_apt, and other acquisition tools
 
 ## Mac Internals
 
@@ -23,7 +24,6 @@
 
 ## Tools
 
-- [Acquisition Tool List](Acquisition_Tools.md)
 - [Tool List](ActiveDev.md)
 
 ## Talks
