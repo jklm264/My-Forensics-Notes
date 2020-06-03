@@ -35,6 +35,7 @@
 
 ## Links
 
+- [Gatekeeper Link](http://www.theinstructional.com/guides/gatekeeper-fundamentals-part-2)
 * [Determine Precise User and Application Usage](https://www.mac4n6.com/blog/2018/8/5/knowledge-is-power-using-the-knowledgecdb-database-on-macos-and-ios-to-determine-precise-user-and-application-usage)
 * [SpecterOps: Hunting for Bad Apples via Launch Daemon](https://posts.specterops.io/hunting-for-bad-apples-part-1-22ef2b44c0aa)
 * [Mac and Mac-Apt Basics](https://medium.com/dfir-dudes/mac-forensics-no-one-said-it-would-be-easy-8bf2f5e4956c)
