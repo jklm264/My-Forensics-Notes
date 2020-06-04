@@ -6,10 +6,11 @@
 
 `*` means both Acquisition and Analysis tool
 
-- *[CrowdStrike AutoMacTC](https://github.com/CrowdStrike/automactc)
+- *[CrowdStrike AutoMacTC](https://github.com/CrowdStrike/automactc) - easy, amazing, love it!
 - *[OSXCollector](https://github.com/Yelp/osxcollector)
-  - Does not default to */*, must specify
+  - Does not default to */*, must specify -- even though docs say otherwise
   - This is built on other tools. For example, the autorun portion of the tool is really just taken from [osxautoruns.py](https://micksmix.wordpress.com/2011/06/29/mac-os-x-auto-run-locations/). Another example is [OSXAuditor](https://github.com/jipegit/OSXAuditor) (now deprecated in favor of this).
+  - Just one massive json file that is very difficult to read.
 - FTKImager
   - `$sudo dd if=/dev/rdisk1 | ./ftkimager - ~/Forensics/disk1_decrypted.raw` from [soruce](https://medium.com/@bromiley/imaging-with-apple-ftkimager-c529c174497a)
 - [Magnet Acquire](https://www.magnetforensics.com/resources/magnet-acquire/)
