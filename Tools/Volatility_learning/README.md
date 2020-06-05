@@ -40,7 +40,13 @@ HINT: Volatility LOVES raw
 
 Then **RegRipper** -- [see that document for more info](../regripper/regripper.md)
 
+## Baselines:
 
+- `PROCESSBL` - to find new DLLs
+- `SERVICESBL` - to find modified service configurations
+- `DRIVERBL` - to find new drivers
+
+Thnx [13Cubed](https://www.youtube.com/watch?v=1thWaC6uvI4) referencing [csababarta github](https://github.com/csababarta/volatility_plugins)
 
 ## Crypto slow-down:
 
