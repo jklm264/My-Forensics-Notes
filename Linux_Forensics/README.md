@@ -11,3 +11,7 @@
   - ~/.bashrc
   - ~/.login
   - ~/.profile
+  
+ ## Acquisition
+ 
+ - [Microsoft's Memory Acquisition Tool (github)](https://github.com/microsoft/avml)
