@@ -75,7 +75,9 @@
 
 - [See here for step-by-step](USB_info.md) 
 
+### Misc
 
+- [*Windows 10 Timeline* (Win10 only)](https://cclgroupltd.com/2018/05/03/windows-10-timeline-forensic-artefacts/) and the ActivitiesCache.db
 
 ## Tools
 
