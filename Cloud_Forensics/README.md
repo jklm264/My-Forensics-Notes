@@ -1,8 +1,9 @@
 # Cloud Forensics
 
-- [Docker Notes](mainDocker.md)
+## Notes
 
-
+- [MS O365](msO365.md)
+- [Docker](mainDocker.md)
 
 ## Presentations
 
