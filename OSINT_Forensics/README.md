@@ -13,6 +13,13 @@
 - haveibbeenpwnd.com 
 - dehashed.com (paid)
 - Spiderfoot
+- Censys.io
+- Greynoise.io
+- base64online
+- Google Hacking Database
+- StartPage
+- Company House UK
+- ZoomeEye.io
 
 
 
