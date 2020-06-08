@@ -12,6 +12,9 @@
 - Spiderfoot
 - StartPage
 - Company House UK
+- github
+  - gitmemory.com/<username>
+  - libraries.io/github/<username>
 
 
 ## Notes from Presentations
