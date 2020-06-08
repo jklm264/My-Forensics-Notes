@@ -1,6 +1,6 @@
 ## Tool List
 
-- [The Many Hats Club Massive List](://docs.google.com/spreadsheets/d/1JxBbMt4JvGr--G0Pkl3jP9VDTBunR2uD3_faZXDvhxc/edit#gid=1173396220)
+- [The Many Hats Club Massive List](https://docs.google.com/spreadsheets/d/1JxBbMt4JvGr--G0Pkl3jP9VDTBunR2uD3_faZXDvhxc/edit#gid=1173396220)
 
 ## Other stand outs:
 
