@@ -25,6 +25,10 @@
 
 ## Notes from Presentations
 
+- [WomenHackerz: OSINT For Missing People Workshop 6/7/20](WHzbigOSINT.md)
+  - Great visual workflow, mindset, and so much more. Lots of recommendations
+- [WomeHackerz: A Phishy Little Liars Workshop 6/7/20](phishyosintWHz.md)
+  - Building pretext during physical/verbal interactions of OSINT.
 - [BlackHills OSINT 2-13](BlackHills_Webcast[2-13-20]-OSINT.md)
   - HR is your friend during OSINT. Use various tools. Don't forget about website certificates for enumeration. Also spiderfoot and recon-ng are great.
 - [BlackHills Cyber Threat Hunting Training 3-4-20](BHCyber_Threat_Hunting_Training.md)
