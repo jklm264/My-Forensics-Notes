@@ -1,26 +1,17 @@
 ## Tool List
 
+- [The Many Hats Club Massive List](://docs.google.com/spreadsheets/d/1JxBbMt4JvGr--G0Pkl3jP9VDTBunR2uD3_faZXDvhxc/edit#gid=1173396220)
+
+## Other stand outs:
+
 - Shodan
-- Coggle- mind mapping
-- Useragentstring.com
-- Username searching
-	- google dorking
-	- knowem.com
-	- sherlock\* or Recon-NG
-	- linked-in (linkedin2username)
-- Eyewitness
-- osintframework
+- google dorking
+- sherlock\* or Recon-NG
+- [osintframework](https://osintframework.com/)
 - haveibbeenpwnd.com 
-- dehashed.com (paid)
 - Spiderfoot
-- Censys.io
-- Greynoise.io
-- base64online
-- Google Hacking Database
 - StartPage
 - Company House UK
-- ZoomeEye.io
-
 
 
 ## Notes from Presentations
