@@ -100,6 +100,4 @@ Presenters: @thecyberviking @alantheblank @rag_sec @AlanTheBlank
 
 - #osintforgood, #osint on twitter
 - [TheCyberViking Stego Paper](https://github.com/TheCyberViking/CollegeResearch/blob/master/Counter-Terrorism in Steganography/readme.md)
-
 - sourcing.games
-- https://marcelle.ctfd.io/wsc-womenhackerz-ctf4noobz
