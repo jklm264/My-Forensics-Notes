@@ -31,4 +31,7 @@
   
   # Ran KAPE on Investigator machine after transfering collected files from VMware shared folder
   C:>kape --msource c:\Users\investigator\Desktop\KAPE_output\c --module !EZParser --mdest C:\Users\investigator\Desktop\KAPE_output\module.output 
+  
+  # Src: <https://dfirtnt.wordpress.com/2020/06/09/find-evil-in-5-easy-steps-part2/amp/>
+  RECmd.exe --d  "C:\Temp\Cases\inc123\files\C" --regex --sa "(\\programdata\\.+\.|\\temp\\.+\.|\\users\\.+\.)(exe|bat|lnk|ps1|cmd|com|vbs|js|jse|wsh|mht|htm|hta|vba|vbe|scr|cpl|msc|jar|vb|reg)"
 ```
