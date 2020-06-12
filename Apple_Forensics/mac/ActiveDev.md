@@ -1,12 +1,4 @@
 # Mac Tools
-
-## Both Acquisition and Analysis
-
-- *[CrowdStrike AutoMacTC](https://github.com/CrowdStrike/automactc) - easy, amazing, love it!
-- *[OSXCollector](https://github.com/Yelp/osxcollector)
-  - Does not default to */*, must specify -- even though docs say otherwise
-  - This is built on other tools. For example, the autorun portion of the tool is really just taken from [osxautoruns.py](https://micksmix.wordpress.com/2011/06/29/mac-os-x-auto-run-locations/). Another example is [OSXAuditor](https://github.com/jipegit/OSXAuditor) (now deprecated in favor of this).
-  - Just one massive json file that is very difficult to read.
   
 ## Acquisition
 
@@ -35,7 +27,15 @@
   - Not sure how much I trust this but says it works with Catalina BUT not enough for ["forensics-level backup"](https://bombich.com/kb/ccc3/block-level-copy)
 - *$$$ RECON Imager with Sumuri from Paladin (paid)[https://sumuri.com/software/paladin/]
 
-## Analysis
+## Live System Analysis
+
+- [CrowdStrike AutoMacTC](https://github.com/CrowdStrike/automactc) - easy, amazing, love it!
+- [OSXCollector](https://github.com/Yelp/osxcollector)
+  - Does not default to */*, must specify -- even though docs say otherwise
+  - This is built on other tools. For example, the autorun portion of the tool is really just taken from [osxautoruns.py](https://micksmix.wordpress.com/2011/06/29/mac-os-x-auto-run-locations/). Another example is [OSXAuditor](https://github.com/jipegit/OSXAuditor) (now deprecated in favor of this).
+  - Just one massive json file that is very difficult to read.
+
+## Host & Memory Analysis
 
 - Mac_apt
 - Volatility
