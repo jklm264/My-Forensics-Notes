@@ -3,8 +3,11 @@
 ## Acquisition
 
 - osxpmem
-  - Make sure to copy the entire .app/ contents and then run `$sudo chown -R root:wheel osxpmem.app/` to give correct permissions.
-    - Then run `$./osxpmem.app/osxpmem -o /tmp/<name of dump>.aff4`
+  - Make sure to copy the entire .app/ contents then:
+    - `$sudo chown -R root:wheel osxpmem.app/` to give correct permissions.
+    - `$./osxpmem.app/osxpmem -o mem.aff4` to acquire
+    - `$./osxpmem.app/osxpmem -V mem.aff4` to verify
+    - `$sudo osxpmem.app/osxpmem -e /dev/pmem -o mem.raw mem.aff4` to convert to raw
   - Thanks Rekall working group!
   - [Google Group says not updated for a while](https://groups.google.com/forum/#!topic/rekall-discuss/fUvzOERzQMw)
   - [PondertheBits How-to osxpmem](https://ponderthebits.com/2017/02/osx-mac-memory-acquisition-and-analysis-using-osxpmem-and-volatility/)
