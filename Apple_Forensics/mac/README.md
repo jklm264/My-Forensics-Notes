@@ -7,6 +7,7 @@
 
 - [ ] Take another look at [GRR](https://github.com/google/grr) with [osquery](https://github.com/osquery/osquery) for analysis
 - [ ] Mac\_apt, and other acquisition tools
+- [ ] **For upcoming Mac (Big Sur):** Rosetta2, Universal2, Virtualization
 
 ## Mac Internals
 
