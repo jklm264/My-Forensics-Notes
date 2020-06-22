@@ -4,6 +4,7 @@
 
 - [MS O365](msO365.md)
 - [Docker](mainDocker.md)
+- [Amazon Web Services](aws.md)
 
 ## Presentations
 
