@@ -2,7 +2,7 @@
 
 ## Free Tools
 
-- [Use Magnet ACQUIRE](https://www.magnetforensics.com/resources/magnet-acquire/) with [iLEAPP](https://github.com/abrignoni/iLEAPP)
+- [Use Magnet ACQUIRE](https://www.magnetforensics.com/resources/magnet-acquire/) with jailbroken iPhone then use [iLEAPP](https://github.com/abrignoni/iLEAPP) parser tool.
   - [The How-To](https://www.youtube.com/watch?v=fEYV5vVAdu4)
 
 ## Talks
