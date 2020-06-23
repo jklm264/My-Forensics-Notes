@@ -2,8 +2,8 @@
 
 ## Free Tools
 
-- [Magnet ACQUIRE](https://www.magnetforensics.com/resources/magnet-acquire/)
-- [iLEAPP - 13Cubed](https://www.youtube.com/watch?v=fEYV5vVAdu4)
+- [Use Magnet ACQUIRE](https://www.magnetforensics.com/resources/magnet-acquire/) with [iLEAPP](https://github.com/abrignoni/iLEAPP)
+  - [The How-To](https://www.youtube.com/watch?v=fEYV5vVAdu4)
 
 ## Talks
 
