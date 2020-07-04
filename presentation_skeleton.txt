@@ -11,7 +11,7 @@ Presenter(s):
 
 
 
-<img src="" width="350" height="200" align="right" alt="alt text">
+<kbd><img src="" width="350" height="200" align="right" alt="alt text"></kbd>
 
 
 
