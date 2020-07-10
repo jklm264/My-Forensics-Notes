@@ -12,6 +12,13 @@
   - ~/.login
   - ~/.profile
   
- ## Acquisition
+ ## 1. Acquisition
  
- - [Microsoft's Memory Acquisition Tool (github)](https://github.com/microsoft/avml)
+ - [Microsoft's Memory Acquisition Tool AMVL (github)](https://github.com/microsoft/avml)
+    - Includes [LiME](https://code.google.com/p/lime-forensics)
+ 
+ ## 2. Analysis
+
+- [usbrip](https://www.youtube.com/watch?v=DP4ScSp_2yE)
+- [Project Freta](https://docs.microsoft.com/en-us/security/research/project-freta/)
+- [Linux Swap Analyzer](https://github.com/sevagas/swap_digger)
