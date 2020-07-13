@@ -11,6 +11,9 @@
   - ~/.bashrc
   - ~/.login
   - ~/.profile
+
+[Thank you Hal Pomeranz](https://drive.google.com/drive/folders/1mb5Qf8PEuf03RJNR0Bs1KSQfiL8zanBR)
+
   
  ## 1. Acquisition
  
