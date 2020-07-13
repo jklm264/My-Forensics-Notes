@@ -48,9 +48,10 @@ Then **RegRipper** -- [see that document for more info](../regripper/regripper.m
 
 Thnx [13Cubed](https://www.youtube.com/watch?v=1thWaC6uvI4) referencing [csababarta github](https://github.com/csababarta/volatility_plugins)
 
-## Crypto slow-down:
+## Dependancies
 
-`sudo python -m easy_install --upgrade pyOpenSSL`
+Crypto slow-down: `$sudo python -m easy_install --upgrade pyOpenSSL`
+Distorm3: `$sudo pip install distorm3-3.4.4`
 
 
 
