@@ -5,8 +5,6 @@
   - Used to record configuration information from user rpoc's that do not have access to write to the standard registry hives.
   - Is **NOT** parsed in FTK Imager, does do ntuser.dat
 
-
-
 ### Registry Artifacts
 
 - If a conflict between HKLM and HKCU, Windows loads from HKCU.
@@ -32,6 +30,8 @@
 - Customization configurations (sizes, placements, etc)
 - BagMRU || Bags
 - Use a tool.
+- [SANS whitepaper](https://www.sans.org/reading-room/whitepapers/forensics/windows-shellbag-forensics-in-depth-34545)
+- Access Data Shellbags Explorer [download](https://www.oit.va.gov/Services/TRM/ToolPage.aspx?tid=11030)
 
 #### Recycling Bin
 
@@ -49,6 +49,8 @@
 - Locations:
   - `C:\Users\Mussm\AppData\Roaming\MS\Win\Recent`
   - `C:\Users\Mussm\AppData\Roaming\Microsoft\Office\Recent`
+- [TZWorks jmp.exe for LNK files](https://tzworks.net/download_links.php)
+  - LNK files are actually in db structure in AutomaticDestinations
 
 #### Jump Lists
 
@@ -71,6 +73,10 @@
 - Stored in SQLite db
 - [Thumbcache Viewer Tool](https://thumbcacheviewer.github.io/)
 
+#### Amcache and Shimcache
+
+- [Andrea Fortuna writeup](https://www.andreafortuna.org/2017/10/16/amcache-and-shimcache-in-forensic-analysis/)
+
 ### USBs
 
 - [See here for step-by-step](USB_info.md) 
@@ -78,22 +84,22 @@
 ### Misc
 
 - [*Windows 10 Timeline* (Win10 only)](https://cclgroupltd.com/2018/05/03/windows-10-timeline-forensic-artefacts/) and the ActivitiesCache.db
+- [MFT writeup by Microsoft](https://docs.microsoft.com/en-us/windows/win32/fileio/master-file-table)
 
 ## Tools
 
-- KAPE
+- [My Tools](/Tools)
+- [KAPE](/Tools/kape)
 - [Access Data Registry Explorer](https://accessdata.com/product-download/registry-viewer-1-8-0-5)
-- Access Data Shellbags Explorer [download](https://www.oit.va.gov/Services/TRM/ToolPage.aspx?tid=11030)
 - RegRipper (Might use in Automated tool)
-- [TZWorks jmp.exe for LNK files](https://tzworks.net/download_links.php)
-  - LNK files are actually in db structure in AutomaticDestinations
-
-
+- [USB Detective ($$$)](https://usbdetective.com/)
+- [MemProcFS](https://github.com/ufrisk/MemProcFS) makes memory as a file system
+- [Log-MD (free version!)](https://www.imfsecurity.com/why-log-md)
 
 ## Further Reading:
 
 - <https://cyberforensicator.com/>
 - [This Youtube Playlist](https://www.youtube.com/playlist?list=PLlY54XJEpOzyj8Dvqu8e78AcH6s5ZKmZM)
 - [13Cubed](https://www.youtube.com/watch?v=VYROU-ZwZX8&t=2328s)
-- [Shellbags](https://www.sans.org/reading-room/whitepapers/forensics/windows-shellbag-forensics-in-depth-34545)
 - [Website that shows you all registry creations & modifications by application](http://greatis.com/pcapps/teamviewer/teamviewerforwindows-11-0-64630.html#rega)
+- [The fastest way to hunt windows endpoints](https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1536251964.pdf)
