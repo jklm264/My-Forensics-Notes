@@ -6,7 +6,7 @@
 
 - [Kerberoasting (SpectreOps 4/8/20)](SpectreOps_Keberoasting.md)
 
-- [My USB Info](USB_info.txt)
+- [My USB Info](USB_info.md)
 
 - [The Windows Tools and Artifacts: "The Definative Compendium"](https://aboutdfir.com/toolsandartifacts/windows/) and [DB of Windows Artifacts Github LINK](https://github.com/ForensicArtifacts/artifacts/blob/master/docs/Artifacts%20definition%20format%20and%20style%20guide.asciidoc)
 
