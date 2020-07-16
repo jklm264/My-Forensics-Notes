@@ -6,6 +6,8 @@
 
 [ElasticSearch](elasticsearch)
 
+[Radare2](r2)
+
 [RegRipper](regripper)
 
 [Rekall](Rekall_learning)
