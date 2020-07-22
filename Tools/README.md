@@ -17,3 +17,7 @@
 [Volatility](Volatility_learning)
 
 [KAPE](kape)
+
+## Trainings
+
+- [List of Training Images](training.md)
