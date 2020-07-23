@@ -7,6 +7,7 @@
 - [Linux Forensics](Linux_Forensics)
 - [Cloud Forensics](Cloud_Forensics)
 - [OSINT Forensics](OSINT_Forensics)
+- [Vehicle Forensics](Vehicle_Forensics)
 - [Tools](Tools/)
   - [Angr](Tools/angr "Angr")
   - [Autopsy](Tools/autopsy)
