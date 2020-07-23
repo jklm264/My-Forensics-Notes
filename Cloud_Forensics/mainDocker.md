@@ -207,3 +207,8 @@ If you get error: `docker: Cannot connect to the Docker daemon at unix:///var/ru
 
 
 [**Page Src**](https://docker-curriculum.com)
+
+## Further Reading
+
+- [Docker "Swarm": Customizable Voting App](https://github.com/docker/labs/blob/master/beginner/chapters/votingapp.md)
+   - [Voting App Source](https://github.com/dockersamples/example-voting-app)
