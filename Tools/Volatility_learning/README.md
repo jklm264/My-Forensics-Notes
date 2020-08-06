@@ -50,7 +50,8 @@ Thnx [13Cubed](https://www.youtube.com/watch?v=1thWaC6uvI4) referencing [csababa
 
 ## Dependancies
 
-Crypto slow-down: `$sudo python -m easy_install --upgrade pyOpenSSL`
+Crypto slow-down: ~~`$sudo python -m easy_install --upgrade pyOpenSSL`~~ `$ pip install pyopenssl`
+
 Distorm3: `$sudo pip install distorm3-3.4.4`
 
 
