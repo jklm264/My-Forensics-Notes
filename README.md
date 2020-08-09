@@ -8,6 +8,7 @@
 - [Cloud Forensics](Cloud_Forensics)
 - [OSINT Forensics](OSINT_Forensics)
 - [Vehicle Forensics](Vehicle_Forensics)
+- [Wireless Forensics](Wireless_Forensics)
 - [Tools](Tools/)
   - [Angr](Tools/angr "Angr")
   - [Autopsy](Tools/autopsy)
