@@ -1,5 +1,11 @@
 # Vehicle Forensics
 
+## Automobile
+
+Autovehicle hacking - https://danielhoherd.com/tech-notes/autonomous-vehicles/
+
+## Aero
+
 After watching [Dustin Hoffman's Defcon20 ABS talk](https://www.youtube.com/watch?v=JZmkOJ9y-xA) I became interested in ABS and aircrafts.
 
 - [Youtube Spoofing ADS-B (2.5 min)](https://www.youtube.com/watch?v=NSLqRXyxiBo)
