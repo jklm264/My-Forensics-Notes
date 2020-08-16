@@ -31,3 +31,4 @@
 - [usbrip](https://www.youtube.com/watch?v=DP4ScSp_2yE)
 - [Project Freta](https://docs.microsoft.com/en-us/security/research/project-freta/)
 - [Linux Swap Analyzer](https://github.com/sevagas/swap_digger)
+- [File Analysis by Malwareandstuff.com](https://malwareandstuff.com/linux-windows-internals-process-structures/?utm_source=rss&utm_medium=rss&utm_campaign=linux-windows-internals-process-structures)
