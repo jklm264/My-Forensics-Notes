@@ -27,6 +27,9 @@
  - Also, [LiME](https://github.com/504ensicsLabs/LiME)
 
  ## Linux Analysis
+ 
+ - [Lookup site for unix bins](gtfobins.github.io/)
+ - [Explainshell.com](https://explainshell.com)
 
 ### Mount
 
