@@ -43,4 +43,5 @@
 - [Linux Swap Analyzer](https://github.com/sevagas/swap_digger)
 - [File Analysis by Malwareandstuff.com](https://malwareandstuff.com/linux-windows-internals-process-structures/?utm_source=rss&utm_medium=rss&utm_campaign=linux-windows-internals-process-structures)
 - [LinuxLeo starting page 22](https://linuxleo.com/Docs/LinuxLeo_4.93.pdf)
+- [GTFOBins - Unix binaries and how to get root](https://gtfobins.github.io/)
 
