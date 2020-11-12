@@ -4,6 +4,8 @@
 
 - [Use Magnet ACQUIRE](https://www.magnetforensics.com/resources/magnet-acquire/) with jailbroken iPhone then use [iLEAPP](https://github.com/abrignoni/iLEAPP) parser tool.
   - [The How-To](https://www.youtube.com/watch?v=fEYV5vVAdu4)
+- [Anything by James Duffy- Github](https://github.com/DuffyAPP-IT)
+  - [His website](https://www.duffy.app/blog/taking-the-first-step-p1)
 
 ## Talks
 
