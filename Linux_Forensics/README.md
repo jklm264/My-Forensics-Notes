@@ -15,7 +15,7 @@
 
 
 ## Thank you Hal Pomeranz
-
+- [Also, Conda's youtube channel](https://www.youtube.com/watch?list=PLDrNMcTNhhYrBNZ_FdtMq-gLFQeUZFzWV&v=E4_n_RbyoxQ&feature=emb_logo)
 - [Hal Pomeranz Linux Forensics slide 64](https://archive.org/details/HalLinuxForensics/page/n1/mode/2up)
 - [Hal at Blackhill (vid)](https://www.blackhillsinfosec.com/webcast-linux-forensics-magical-mystery-tour-with-hal-pomeranz/) - [my notes](Hal_MagicalMysteryTour.md)
 - [Drive of his exercises](https://drive.google.com/drive/folders/1mb5Qf8PEuf03RJNR0Bs1KSQfiL8zanBR)
@@ -30,6 +30,7 @@
  
  - [Lookup site for unix bins](gtfobins.github.io/)
  - [Explainshell.com](https://explainshell.com)
+ - [Any enum script- LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
 
 ### Mount
 
