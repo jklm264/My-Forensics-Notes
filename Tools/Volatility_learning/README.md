@@ -2,11 +2,11 @@
 
 In Vol.py we like 'x' (cross reference) tools like psXview (instead of psview)
 
-[Automated Script (needs edits)](automate_vol.sh)
+[Automated Script (needs work)](automate_vol.sh)
 
 
 
-## Get from .dmp to raw with imagecopy
+### Get from .dmp to raw with imagecopy
 
 HINT: Volatility LOVES raw
 
@@ -17,30 +17,36 @@ HINT: Volatility LOVES raw
 
 *Not necessary though. Can use vmem of snapshot just fine.
 
-## File Recovery:
+### Linux KDBGscan
+
+In Linux, to find the KDBG block/os-info just grep for "BOOT_IMAGE".
+
+Src: [OSDFcon2020 Overcoming Volatility Obstacles](https://www.osdfcon.org/events_2020/memory-forensics/)
+
+### File Recovery:
 
 - filescan
 - dumpfile -Q [offset] -D [dump-dir]
 - cat fiel.None.[offset].dat
 
-## File Recovery of Currently Open File:
+### File Recovery of Currently Open File:
 
 - psscan
 - procdump -p [pid] -D [dump-dir]
 
-## Recover Password:
+### Recover Password:
 
 - hivelist
 - hashdump # y is the virtual offset of the SAM hive and s is the SYSTEM hive
 - john --wordlist=wordlist hashes.txt 
 
-## Recent Docs:
+### Recent Docs:
 
 `vol.py -f Windows\ 7\ x64-Snapshot1.vmem --profile=Win7SP1x64 dumpregistry -D output`
 
 Then **RegRipper** -- [see that document for more info](../regripper/regripper.md)
 
-## Baselines:
+### Baselines:
 
 - `PROCESSBL` - to find new DLLs
 - `SERVICESBL` - to find modified service configurations
@@ -48,13 +54,19 @@ Then **RegRipper** -- [see that document for more info](../regripper/regripper.m
 
 Thnx [13Cubed](https://www.youtube.com/watch?v=1thWaC6uvI4) referencing [csababarta github](https://github.com/csababarta/volatility_plugins)
 
-## Dependancies
+
+
+## Troubleshooting
+
+### Dependancies 
 
 Crypto slow-down: ~~`$sudo python -m easy_install --upgrade pyOpenSSL`~~ `$ pip install pyopenssl`
 
 Distorm3: `$sudo pip install distorm3-3.4.4`
 
+### Corrupt Memory Sample
 
+If memory sample is corrupts nad can't get another, suggested (from OSDFcon2020) to use [Bulk Extractor](https://www.github.com/simsong/bulk_extractor) and/or Vol.py's *mftparser*.
 
 ## Resources
 

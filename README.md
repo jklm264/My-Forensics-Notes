@@ -16,7 +16,7 @@
   - [RegRipper](Tools/regripper/regripper.md)
   - [Rekall](Tools/Rekall_learning "Google's Rekall + GRR + some Memory Forensics notes")
   - [Splunk](Tools/splunk)
-  - [Volatility](Tools/Volatility_learning "Volatility")
+  - [Volatility](Tools/Volatility_learning/README.md "Volatility")
   - [KAPE](Tools/kape)
   - [Radare2](Tools/r2)
 
