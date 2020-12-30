@@ -1,6 +1,7 @@
 # Windows Forensics
 
 - [My Notes: Windows Beginnings (Easy to check registry locations)](Windows_Beginnings.md)
+- [My Windows Forensics Cheat Sheet](myWindowsForensicsCheatSheet.xlsx) - artifacts and traige order
 - [Active Directory](active_directory)
 - [Kerberoasting (SpectreOps 4/8/20)](SpectreOps_Keberoasting.md)
 - [My USB Info](USB_info.md)
