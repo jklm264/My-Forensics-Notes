@@ -14,6 +14,10 @@
 
 - [Windows Registry lookup bash script](windowsplus.sh)
 
+## Practice Drives
+
+- <https://www.forensicfocus.com/challenges-and-images/>
+- <https://www.cfreds.nist.gov/>
 
 ## Virtualization Hints
 
