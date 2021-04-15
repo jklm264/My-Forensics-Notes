@@ -41,33 +41,23 @@
 
 **Check sudo group**
 
-` Grep -E ‘<sus user accounts>’ /etc/group`
+`Grep -E ‘<sus user accounts>’ /etc/group`
 
 **Search for Files by Time**
 
 Search for files that had their metadata changed within the last *n* days
 
-\-     $find / -type f -newermt 2019-10-04 #modified time
-
-\-     $find / -type f -newerct <time> # inode status change time
-
-  
+-     $find / -type f -newermt 2019-10-04 #modified time
+-     $find / -type f -newerct <time> # inode status change time
 
 ## Hunt last logins
 
-\-     Last
-
-\-     W
-
-\-     Lastlog
-
-\-     /var/log/auth.log
-
-\-     Last -f /var/log/wtmp
-
-\-     Last -f /var/log/btmp
-
-
+-     Last
+-     W
+-     Lastlog
+-     /var/log/auth.log
+-     Last -f /var/log/wtmp
+-     Last -f /var/log/btmp
 
 ### Dump wtmp/btmp
 
@@ -78,6 +68,4 @@ Search for files that had their metadata changed within the last *n* days
 5. Dump_inode wtmp /media/externaldev/case/wtmp.dump
 6. Strings wtmp.dump
 
-
-
-This was the exact same talk from 2019: https://www.osdfcon.org/presentations/2019/Ali-Hadi_Performing-Linux-Forensic-Analysis-and-Why-You-Should-Care.pdf
+This was the exact same talk from 2019: <https://www.osdfcon.org/presentations/2019/Ali-Hadi_Performing-Linux-Forensic-Analysis-and-Why-You-Should-Care.pdf>
