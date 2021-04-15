@@ -27,7 +27,8 @@
  - Also, [LiME](https://github.com/504ensicsLabs/LiME)
 
  ## Linux Analysis
- 
+
+ - [Champlain presentation](MagnetChamplain_linux.md)
  - [Lookup site for unix bins](gtfobins.github.io/)
  - [Explainshell.com](https://explainshell.com)
  - [Any enum script- LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
