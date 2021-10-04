@@ -27,4 +27,3 @@
 
 ![Loop Device fix on SIFT](assets/loopdevice_Fix.png)
 
-

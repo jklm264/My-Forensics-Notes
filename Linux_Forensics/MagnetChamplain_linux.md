@@ -4,11 +4,11 @@
 
 ## Linux Intro
 
-<img src="MagnetChamplain_linux.Pictures/image-20210415114740101.png" alt="image-20210415114740101" style="zoom: 80%;" />
+<img src="MagnetChamplain_linux.Pictures/filesystem.png" alt="image-20210415114740101" style="zoom: 80%;" />
 
-<img src="MagnetChamplain_linux.Pictures/image-20210415114756775.png" alt="image-20210415114756775" style="zoom:67%;" />
+<img src="MagnetChamplain_linux.Pictures/stat.png" alt="image-20210415114756775" style="zoom:67%;" />
 
-<img src="MagnetChamplain_linux.Pictures/image-20210415114800433.png" alt="image-20210415114800433" style="zoom:67%;" />
+<img src="MagnetChamplain_linux.Pictures/lsof.png" alt="image-20210415114800433" style="zoom:67%;" />
 
 
 

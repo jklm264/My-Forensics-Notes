@@ -45,7 +45,7 @@ hrpomeranz@gmail.com / @hal_pomeranz
 
 The record before the deleted one will grow to consume the space of the record that was just deleted.
 
-- Previous directory entry's legntth field is increased.
+- Previous directory entry's length field is increased.
 - This means though that file type, inode number, etc. still exist plainly via running `$icat` again!
 
 Until space in that directory is reused, that recently deleted data will persist.
