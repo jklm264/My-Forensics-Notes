@@ -66,7 +66,7 @@ Threads are forks of processes…multithreading
 - Process (or fork): Contains code, data, files, registries, and stacks
 - Fork: A complete copy of a process except for address space, stacks, and heaps
 - Thread: shares code and global data with entire process while **still maintaining its own stack and registers** - all in same address space. Threads can access other threads memory.
-- Signals: [CPD lecture 6](6signals.pptx) and [CPD lecture 8](8ipc.pptx)
+- Signals: [CPD lecture 6](LinuxSecurityCourse/6signals.pptx) and [CPD lecture 8](LinuxSecurityCourse/8ipc.pptx)
 
 #### Process Monitoring
 
@@ -244,7 +244,7 @@ Live box is obviously great for a number a reasons, over deadbox. One specific r
 
 ## 5. Anti-forensics
 
-> For more info, see [my notes here](https://github.com/jklm264/AoMF_Notes/blob/master/procsandProcMem.md)
+> For more info, see [my Processes and Process Memory notes here](https://github.com/jklm264/AoMF_Notes/blob/master/procsandProcMem.md)
 
 ### Using Single User Mode
 
@@ -288,11 +288,12 @@ To convert epoch to human readable: `$date -d @1535347485`
 
  ## Linux Analysis by Others
 
- - [Champlain presentation](MagnetChamplain_linux.md)
- - [Lookup site for unix bins](gtfobins.github.io/)
- - [Explainshell.com](https://explainshell.com)
- - [Any enum script- LinEnum](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
- - [Conda's youtube channel](https://www.youtube.com/watch?list=PLDrNMcTNhhYrBNZ_FdtMq-gLFQeUZFzWV&v=E4_n_RbyoxQ&feature=emb_logo)
+- [Champlain presentation](MagnetChamplain_linux.md)
+- [Lookup site for unix bins](https://gtfobins.github.io/)
+- [Explainshell.com](https://explainshell.com)
+- [LinPeas - then best enum script](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
+- [Any enum script- LinEnum by rebootuser](https://github.com/rebootuser/LinEnum/blob/master/LinEnum.sh)
+- [Conda's youtube channel](https://www.youtube.com/watch?list=PLDrNMcTNhhYrBNZ_FdtMq-gLFQeUZFzWV&v=E4_n_RbyoxQ&feature=emb_logo)
 
 ### Miscellaneous
 
