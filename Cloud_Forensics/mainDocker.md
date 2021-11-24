@@ -1,27 +1,18 @@
 # Docker Notes
 
-
-
 [CTFd setup via docker](ctfd_setup.txt)
-
-
-
-## Up Next
-
-- <docs.docker.com/samples/>
-- Play around with Docker-Compose and multi-container envs
-
-
 
 ## Notes ToC
 
 - [TLDR](#TLDR)
+- [General Info about containers](containers.md)
+- [Low-level details about containers; docker focused](docker101.md)
 - [Basics](#Basics)
 - [Webapps](#Webapps---Static-Sites)
 - [Docker Images](#Docker-Images)
 - [Working with Multiple Containers/Docker Network](#Multi-Container-Environments)
 - [Docker Compose](#Docker-Compose)
-- [Kubernetes](#Kubernetes,-K8s,-Kubes)
+- [Docker Use-Cases](useCases.md)
 - [Troubleshooting on Mac](#Troubleshooting)
 
 
@@ -190,25 +181,17 @@ volumes:
 	- `-d` is detached
 	- `$docker-compose down -v`
 
-
-
-# Kubernetes, K8s, Kubes
-
-- Inspired by HackQuarantine 
-- Def: "Open-source container-orchestration system for automating application deployment, scaling, and management."
-- Control Manager checks if states of nodes/workers is actually what is wanted.
-
-
-
 ## Troubleshooting
 
 If you get error: `docker: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?.` just run Docker app from _Spotlight Search_
 
 
 
-[**Page Src**](https://docker-curriculum.com)
-
 ## Further Reading
 
 - [Docker "Swarm": Customizable Voting App](https://github.com/docker/labs/blob/master/beginner/chapters/votingapp.md)
    - [Voting App Source](https://github.com/dockersamples/example-voting-app)
+
+- [Docker Curriculum](https://docker-curriculum.com)
+
+   ## 
