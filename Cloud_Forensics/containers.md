@@ -1,7 +1,5 @@
 # Containers
 
-**Definition**: Includes Azure, M365, containers, mobile, EVERYTHING
-
 Container_examples :=  [LXC](https://en.wikipedia.org/wiki/LXC), [Solaris containers](https://en.wikipedia.org/wiki/Solaris_Containers), [Docker](https://en.wikipedia.org/wiki/Docker_(software)), Windows Server Core, Nano Server, Windows10 IoT Core, Kubernetes, Azure Stack, RHEL OpenShift ([Wikipedia](https://en.wikipedia.org/wiki/OS-level_virtualization) and [MSFT](https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/)) & [rkt](https://www.openshift.com/learn/topics/rkt), & runC.
 
 ## Working Group Projects
