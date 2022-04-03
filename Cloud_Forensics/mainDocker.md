@@ -2,6 +2,8 @@
 
 [CTFd setup via docker](ctfd_setup.txt)
 
+[Planka setup via docker](https://github.com/plankanban/planka#deploy)
+
 ## Notes ToC
 
 - [TLDR](#TLDR)
