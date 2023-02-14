@@ -13,6 +13,7 @@
 ## Tools and Scripts
 
 - [Windows Registry lookup bash script](windowsplus.sh)
+- [Windows Management Interface (WMI)](WMI_research/README.md)
 
 ## Practice Drives
 
