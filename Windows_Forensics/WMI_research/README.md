@@ -24,3 +24,7 @@ wmic computersystem get name
 
 wmic startup get /format:list
 ```
+
+Thanks:
+- <https://adamtheautomator.com/your-goto-guide-for-working-with-windows-wmi-events-and-powershell/>
+- <https://www.netspi.com/blog/technical/adversary-simulation/getting-started-wmi-weaponization-part-5/>
