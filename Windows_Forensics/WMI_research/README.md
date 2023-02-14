@@ -1,6 +1,6 @@
 # WMI Research
 
-[AntiForensics Binding Scripts](./AntiForensics/README.md)
+[AntiForensics Binding Scripts](AntiForensics)
 
 ## WMI vs CIM Differences
 
