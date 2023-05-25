@@ -276,8 +276,7 @@ To convert epoch to human readable: `$date -d @1535347485`
 <br/>
 
 [Linux Tripwire](https://www.linuxjournal.com/article/8758) (IDS) can tell if system files have been malicious modified or replaced.
-
-
+[OSSEC](https://www.ossec.net) Host-based IDS
 
 ## Thank you Hal Pomeranz
 
