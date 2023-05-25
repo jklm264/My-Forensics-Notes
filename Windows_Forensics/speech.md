@@ -1,12 +1,13 @@
 # System.Speech PowerShell
 
+```PowerShell
 Add-Type -AssemblyName System.speech
 $a=New-Object System.Speech.Synthesis.SpeechSynthesizer
 $b="I am leet"
 $a.Speak($b)
 $a.GetInstalledVoices().VoiceInfo
 $a.SelectVoice("Microsoft David Desktop")
-
+```
 
 Sources:
 
