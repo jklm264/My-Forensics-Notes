@@ -1,0 +1,85 @@
+<#
+    .SYNOPSIS
+    GPO_Script
+    Author: jklm264 - https://github.com/jklm264
+
+    .DESCRIPTION
+    Based on prior experience there seems to be a need to 
+    assist organizations to automatically enable much of their 
+    logging on various Windows machines. This in turn will 
+    enable yourselves, along with 3rd party incident responders 
+    to more easily address any security incident which may 
+    occur now and in the future.
+
+    .EXAMPLE
+    .\GPO_Script.ps1
+#>
+
+if(Test-Path -Path ".\imports"){
+    "You have already run this script. It is dangerous to run again."
+    "Quiting now..."
+    Exit 1
+}
+
+$base_dir = (Get-Item .).FullName
+$LGPO_dir =  $base_dir + "\LGPO_data"
+$gpo_standard_path = "\DomainSysvol\GPO\Machine\microsoft\windows nt\"
+$custom_registrypol_path = $base_dir + "\registry.pol"
+$custom_gptinf_path = $LGPO_dir + "\*" + $gpo_standard_path + "\SecEdit"
+$custom_audit_path = $LGPO_dir + "\*" + $gpo_standard_path + "\Audit"
+$output_homepath = $base_dir + "\imports" + $gpo_standard_path
+$SecEdit_dir = $output_homepath + "\SedEdit"
+$Audit_dir = $output_homepath + "\Audit"
+$custom_gptinf = $SecEdit_dir + "\GptTmpl.inf"
+$custom_audit = $Audit_dir+ "\Audit.csv"
+$osSearch = @('2012 R2','Windows 7')
+
+mkdir $SecEdit_dir
+mkdir $Audit_dir
+cp registry.pol $output_homepath\..\..
+
+
+# Create empty directory for backup to be placed in. This is necessary to grab the current configureation of their event log audit policy.
+New-Item -ItemType directory -Path $LGPO_dir
+.\LGPO.exe /b $LGPO_dir
+
+# Set custom GPT configuration
+cd $custom_gptinf_path
+$APC_value = (Select-String -Path .\GptTmpl.inf -Pattern 'AuditPolicyChange').Line.split("=")[1]
+$ADA_value = (Select-String -Path .\GptTmpl.inf -Pattern 'AuditDSAccess').Line.split("=")[1]
+$toChange = "AuditSystemEvents = 3`r`nAuditLogonEvents = 3`r`nAuditObjectAccess = 3`r`nAuditPrivilegeUse = 3`r`nAuditPolicyChange = $APC_value`r`nAuditAccountManage = 1`r`nAuditProcessTracking = 3`r`nAuditDSAccess = $ADA_value`r`nAuditAccountLogon = 3`r`n"
+
+# SeDelegateSessionUserImpersonatePrivilege edge-case
+if($null -ne ($osSearch | ? {(Get-WMIObject win32_operatingsystem).name -match $_})){
+  (Get-Content -Path .\GptTmpl.inf) -replace '(?sm)(Event Audit\])(.*?)(\[)', "`$1`n$toChange[" | Set-Content $custom_gptinf
+  (Get-Content -Path $custom_gptinf) -replace 'SeDelegateSessionUserImpersonatePrivilege=', '' | Set-Content $custom_gptinf
+}elseif((Get-WMIObject win32_operatingsystem).name -match 'Windows 8'){
+  (Get-Content -Raw -Path .\GptTmpl.inf) -replace '(?sm)(Event Audit\])(.*?)(\[)', "`$1`n$toChange[" | Set-Content $custom_gptinf
+  (Get-Content -Path $custom_gptinf) -replace 'SeDelegateSessionUserImpersonatePrivilege=', '' | Set-Content $custom_gptinf
+}else{
+  (Get-Content -Raw -Path .\GptTmpl.inf) -replace '(?sm)(Event Audit\])(.*?)(\[)', "`$1`n$toChange[" | Set-Content $custom_gptinf
+}
+
+# Set custom Audit configuration
+cd $custom_audit_path
+$changers = @("Other Logon/Logoff Events,","Logon,","Handle Manipulation,","Detailed File Share,","SAM,","RPC Events,","Process Creation,","Computer Account Management,","User Account Management,")
+
+Get-Content -Path audit.csv | ForEach-Object{
+    $line = $_
+    $flg = 0
+
+	foreach($change in $changers){
+		if($line -match $change){
+			$lastChar = $line.Substring($line.Length - 1)
+			if([int]$lastChar -lt 1){
+        		$line -replace '}.*$','},Success,,1'
+                $flg = 1
+                break
+			}
+		}
+	} if($flg -eq 0){$line}
+} | Set-Content $custom_audit
+
+# Import customer registry.pol, GptTmpl.inf, and audit.csv
+cd $base_dir
+.\LGPO.exe /g .\imports

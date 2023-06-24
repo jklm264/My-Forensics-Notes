@@ -15,6 +15,7 @@
 
 - [Windows Registry lookup bash script](windowsplus.sh)
 - [Windows Management Interface (WMI)](WMI_research/README.md)
+- [Windows GPO Management](gpo_script/README.md)
 
 ## Practice Drives
 
